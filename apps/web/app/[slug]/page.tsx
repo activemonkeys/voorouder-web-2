@@ -5,7 +5,8 @@ import type {Metadata} from 'next';
 import {notFound} from 'next/navigation';
 import CustomMDX from '@/components/mdx';
 import {siteConfig} from '@/config/site';
-import {getAllContent, getContentBySlug} from '@/lib/content';
+import {ContentItem} from '@/lib/schemas';
+import {getAllContent, getContentBySlug} from '@/services/content-service';
 import {ArrowLeft} from 'lucide-react';
 import {Link} from 'next-view-transitions';
 
@@ -17,7 +18,7 @@ type PageProps = {
 
 export async function generateStaticParams() {
   const content = getAllContent();
-  return content.map((item) => ({
+  return content.map((item: ContentItem) => ({
     slug: item.slug,
   }));
 }

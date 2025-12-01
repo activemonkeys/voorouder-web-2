@@ -1,0 +1,235 @@
+{
+  "columns": [
+    {
+      "field": "achternaam",
+      "headerName": "Achternaam",
+      "minWidth": 200,
+      "sort": "asc",
+      "sortIndex": 0
+    },
+    {
+      "field": "voornaam",
+      "headerName": "Voornaam",
+      "minWidth": 280
+    },
+    {
+      "field": "geboortedatum",
+      "headerName": "Geboren",
+      "minWidth": 120
+    },
+    {
+      "field": "geboorteplaats",
+      "headerName": "Geboorteplaats",
+      "minWidth": 150
+    },
+    {
+      "field": "overlijdensdatum",
+      "headerName": "Overleden",
+      "minWidth": 120
+    },
+    {
+      "field": "overlijdensplaats",
+      "headerName": "Overlijdensplaats",
+      "minWidth": 150
+    },
+    {
+      "field": "beroep",
+      "headerName": "Beroep",
+      "minWidth": 200
+    },
+    {
+      "field": "lokatie",
+      "headerName": "Lokatie Omgekomen",
+      "minWidth": 150
+    }
+  ],
+  "rows": [
+    {
+      "achternaam": "Bok",
+      "voornaam": "Anne",
+      "geboortedatum": "14 aug 1906",
+      "geboorteplaats": "Uithuizen",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186173&tree=voorouders",
+      "lokatie": "Doelen"
+    },
+    {
+      "achternaam": "Bosma",
+      "voornaam": "Nicolaas",
+      "geboortedatum": "23 dec 1890",
+      "geboorteplaats": "Weststellingwerf",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186321&tree=voorouders",
+      "lokatie": "Doelen"
+    },
+    {
+      "achternaam": "den Otter",
+      "voornaam": "Mattheus Jan",
+      "geboortedatum": "21 aug 1898",
+      "geboorteplaats": "Barendrecht",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I183589&tree=voorouders",
+      "lokatie": "Doelen"
+    },
+    {
+      "achternaam": "Feunekes",
+      "voornaam": "Beene",
+      "geboortedatum": "23 okt 1893",
+      "geboorteplaats": "Borger",
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I221337&tree=voorouders",
+      "lokatie": "Koninginnebrug "
+    },
+    {
+      "achternaam": "Gans",
+      "voornaam": "Hendrik",
+      "geboortedatum": "21 nov 1898",
+      "geboorteplaats": "Hellevoetsluis",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1421658&tree=voorouders",
+      "lokatie": "Doelen"
+    },
+    {
+      "achternaam": "Goedhart",
+      "voornaam": "Willem Henri",
+      "geboortedatum": "14 mei 1900",
+      "geboorteplaats": "Renkum",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Inspecteur van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1289285&tree=voorouders",
+      "lokatie": "Binnenplaats Centraal Bureau"
+    },
+    {
+      "achternaam": "Hordijk",
+      "voornaam": "Jan",
+      "geboortedatum": "3 juni 1896",
+      "geboorteplaats": "Strijen",
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Majoor van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I215212&tree=voorouders",
+      "lokatie": "Oosterkade"
+    },
+    {
+      "achternaam": "Kuiper",
+      "voornaam": "Klaas Pieter",
+      "geboortedatum": "4 mrt 1907",
+      "geboorteplaats": "Amsterdam",
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Inspecteur van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I259570&tree=voorouders",
+      "lokatie": "Omgeving Maasbruggen"
+    },
+    {
+      "achternaam": "Noordhoek",
+      "voornaam": "Jacob",
+      "geboortedatum": "24 jul 1893",
+      "geboorteplaats": "Numansdorp",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Majoor van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186435&tree=voorouders",
+      "lokatie": "Coolsingel"
+    },
+    {
+      "achternaam": "Raes",
+      "voornaam": "Benedictus Leonardus",
+      "geboortedatum": "27 nov 1893 ",
+      "geboorteplaats": "Koewacht",
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1485045&tree=voorouders",
+      "lokatie": "Noordereiland"
+    },
+    {
+      "achternaam": "Schipper",
+      "voornaam": "Willem Jacob Roelof",
+      "geboortedatum": "10 nov 1905",
+      "geboorteplaats": "Schiedam",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1310666&tree=voorouders",
+      "lokatie": "Tuin Ziekenhuis Coolsingel"
+    },
+    {
+      "achternaam": "Timmer",
+      "voornaam": "Gerrit Wilhelm",
+      "geboortedatum": "12 mei 1915",
+      "geboorteplaats": "Assen",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "'s-Gravenhage",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I528874&tree=voorouders",
+      "lokatie": "Doelen"
+    },
+    {
+      "achternaam": "van der Linden",
+      "voornaam": "Nicolaas",
+      "geboortedatum": "23 apr 1894",
+      "geboorteplaats": "Breda",
+      "overlijdensdatum": "28 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186275&tree=voorouders",
+      "lokatie": "Doelen"
+    },
+    {
+      "achternaam": "van der Weele",
+      "voornaam": "Johannis Cornelis",
+      "geboortedatum": "23 nov 1885",
+      "geboorteplaats": "Colijnsplaat",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Hoofdinspecteur van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1399538&tree=voorouders",
+      "lokatie": "Doelen"
+    },
+    {
+      "achternaam": "Verwaal",
+      "voornaam": "Paulus",
+      "geboortedatum": "5 okt 1894",
+      "geboorteplaats": "Groot-Ammers",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I801148&tree=voorouders",
+      "lokatie": "Doelen"
+    },
+    {
+      "achternaam": "Westerlaken",
+      "voornaam": "Teunis",
+      "geboortedatum": "16 apr 1888",
+      "geboorteplaats": "Rockanje",
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I916075&tree=voorouders",
+      "lokatie": "Waalhaven"
+    },
+    {
+      "achternaam": "Wielaard",
+      "voornaam": "Arie",
+      "geboortedatum": "15 jul 1909",
+      "geboorteplaats": "Rotterdam",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Agent van Politie",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I666436&tree=voorouders",
+      "lokatie": "Doelen"
+    }
+  ]
+}

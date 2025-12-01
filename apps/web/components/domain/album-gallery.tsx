@@ -1,9 +1,9 @@
-// apps/web/components/ui-ex/album-gallery.tsx
+// apps/web/components/domain/album-gallery.tsx
 'use client';
 
 import React, {useState} from 'react';
 import Image from 'next/image';
-import {AlbumData} from '@/types/albums';
+import {AlbumData} from '@/lib/schemas'; // Gebruik nu het Zod schema type
 import {
   RenderImageContext,
   RenderImageProps,

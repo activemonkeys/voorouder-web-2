@@ -2,7 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import {cn, slugify} from '@/lib/utils';
+
+import {cn, slugify} from '@workspace/ui/lib/utils'; // Gecentraliseerde import
 
 interface CustomImageProps extends Omit<
   React.ImgHTMLAttributes<HTMLImageElement>,
@@ -19,7 +20,6 @@ interface CustomImageProps extends Omit<
   priority?: boolean;
 }
 
-// Helper component outside of render
 const ImageContent = ({
   src,
   alt,

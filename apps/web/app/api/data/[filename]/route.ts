@@ -1,7 +1,10 @@
 // apps/web/app/api/data/[filename]/route.ts
 import {NextRequest, NextResponse} from 'next/server';
-import {filterData, loadDataFile, paginateData} from '@/lib/api-utils';
-import {ApiResponse, Column} from '@/types/api';
+import {
+  filterData,
+  loadDataFile,
+  paginateData,
+} from '@/services/dataset-service';
 
 type Params = Promise<{filename: string}>;
 
@@ -12,20 +15,21 @@ export async function GET(request: NextRequest, {params}: {params: Params}) {
   try {
     const {searchParams} = new URL(request.url);
 
+    // Gebruik de service die al beveiliging tegen path traversal bevat
     const data = await loadDataFile(filename);
+
     if (!data) {
       return NextResponse.json(
         {
           success: false,
-          error: 'Data file not found',
-        } as ApiResponse,
+          error: 'Dataset not found or invalid',
+        },
         {status: 404},
       );
     }
 
     const filters: Record<string, string> = {};
-    data.columns.forEach((column: Column) => {
-      // Type toegevoegd
+    data.columns.forEach((column) => {
       const value = searchParams.get(column.field);
       if (value) {
         filters[column.field] = value;
@@ -42,20 +46,20 @@ export async function GET(request: NextRequest, {params}: {params: Params}) {
     return NextResponse.json({
       success: true,
       data: {
-        fields: data.columns.map((col: Column) => col.field), // Type toegevoegd
+        fields: data.columns.map((col) => col.field),
         rows: paginatedData,
       },
       total: filteredData.length,
       page,
       pageSize,
-    } as ApiResponse);
+    });
   } catch (error) {
     console.error('API Error:', error);
     return NextResponse.json(
       {
         success: false,
         error: 'Internal server error',
-      } as ApiResponse,
+      },
       {status: 500},
     );
   }

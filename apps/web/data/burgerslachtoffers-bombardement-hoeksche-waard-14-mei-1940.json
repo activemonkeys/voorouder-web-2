@@ -1,0 +1,136 @@
+{
+  "columns": [
+    {
+      "field": "achternaam",
+      "headerName": "Achternaam",
+      "minWidth": 180,
+      "sort": "asc",
+      "sortIndex": 0
+    },
+    {
+      "field": "voornaam",
+      "headerName": "Voornaam",
+      "minWidth": 180
+    },
+    {
+      "field": "leeftijd",
+      "headerName": "Leeftijd",
+      "minWidth": 100
+    },
+    {
+      "field": "geboortedatum",
+      "headerName": "Geboren",
+      "minWidth": 100
+    },
+    {
+      "field": "geboorteplaats",
+      "headerName": "Geboorteplaats",
+      "minWidth": 150
+    },
+    {
+      "field": "overlijdensdatum",
+      "headerName": "Overleden",
+      "minWidth": 100
+    },
+    {
+      "field": "overlijdensplaats",
+      "headerName": "Overlijdensplaats",
+      "minWidth": 150
+    },
+    {
+      "field": "beroep",
+      "headerName": "Beroep",
+      "minWidth": 130
+    }
+  ],
+  "rows": [
+    {
+      "achternaam": "de Schipper",
+      "voornaam": "Hendrika",
+      "leeftijd": 38,
+      "geboortedatum": "12 jan 1902",
+      "geboorteplaats": "'s-Heer-Arendskerke",
+      "overlijdensdatum": "24 mei 1940",
+      "overlijdensplaats": "Poortugaal",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I223936&tree=voorouders"
+    },
+    {
+      "achternaam": "Fortuin",
+      "voornaam": "Elisabeth",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1929",
+      "geboorteplaats": "",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Strijen",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I223610&tree=voorouders"
+    },
+    {
+      "achternaam": "Hoogvliet",
+      "voornaam": "Oelbert",
+      "leeftijd": 17,
+      "geboortedatum": "1 jun 1922",
+      "geboorteplaats": "Maasdam",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Maasdam",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I223723&tree=voorouders"
+    },
+    {
+      "achternaam": "Kooijman",
+      "voornaam": "Lena",
+      "leeftijd": 27,
+      "geboortedatum": "16 mrt 1913",
+      "geboorteplaats": "IJsselmonde",
+      "overlijdensdatum": "15 mei 1940",
+      "overlijdensplaats": "Dordrecht",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I223559&tree=voorouders"
+    },
+    {
+      "achternaam": "van Horssen",
+      "voornaam": "Bastiaan",
+      "leeftijd": 24,
+      "geboortedatum": "16 apr 1916",
+      "geboorteplaats": "Strijen",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Strijen",
+      "beroep": "Landarbeider",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I223781&tree=voorouders"
+    },
+    {
+      "achternaam": "van Horssen",
+      "voornaam": "Pieter",
+      "leeftijd": 28,
+      "geboortedatum": "23 mrt 1912",
+      "geboorteplaats": "Strijen",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Strijen",
+      "beroep": "Grondwerker",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I223864&tree=voorouders"
+    },
+    {
+      "achternaam": "van Vugt",
+      "voornaam": "Adrianus",
+      "leeftijd": 80,
+      "geboortedatum": "1 nov 1859",
+      "geboorteplaats": "Strijen",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Strijen",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I223639&tree=voorouders"
+    },
+    {
+      "achternaam": "van Wijk",
+      "voornaam": "Maaike",
+      "leeftijd": 83,
+      "geboortedatum": "19 nov 1856",
+      "geboorteplaats": "'s-Gravendeel",
+      "overlijdensdatum": "17 mei 1940",
+      "overlijdensplaats": "Strijen",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I223877&tree=voorouders"
+    }
+  ]
+}

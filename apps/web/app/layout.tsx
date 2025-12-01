@@ -47,8 +47,6 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <ViewTransitions>
       <html lang="nl" suppressHydrationWarning>
-        {' '}
-        {/* Hier stond hij al goed, maar check voor zekerheid */}
         <head>
           <link rel="icon" href="/favicon.ico" sizes="any" />
           <link rel="manifest" href="/site.webmanifest" />
@@ -76,7 +74,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
           )}
         </head>
         <body
-          suppressHydrationWarning // Dubbel zeker: ook op body vanwege themes/fonts class injection
+          suppressHydrationWarning
           className={cn(
             GeistSans.variable,
             GeistMono.variable,

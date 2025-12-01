@@ -1,0 +1,183 @@
+{
+  "columns": [
+    {
+      "field": "achternaam",
+      "headerName": "Achternaam",
+      "minWidth": 200,
+      "sort": "asc",
+      "sortIndex": 0
+    },
+    {
+      "field": "voornaam",
+      "headerName": "Voornaam",
+      "minWidth": 280
+    },
+    {
+      "field": "geboortedatum",
+      "headerName": "Geboren",
+      "minWidth": 120
+    },
+    {
+      "field": "geboorteplaats",
+      "headerName": "Geboorteplaats",
+      "minWidth": 150
+    },
+    {
+      "field": "overlijdensdatum",
+      "headerName": "Overleden",
+      "minWidth": 120
+    },
+    {
+      "field": "overlijdensplaats",
+      "headerName": "Overlijdensplaats",
+      "minWidth": 150
+    },
+    {
+      "field": "beroep",
+      "headerName": "Beroep",
+      "minWidth": 200
+    }
+  ],
+  "rows": [
+    {
+      "achternaam": "Boogmans",
+      "voornaam": "Engelbertus Antonius",
+      "geboortedatum": "7 mei 1898",
+      "geboorteplaats": "Rotterdam",
+      "overlijdensdatum": "21 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Los werkman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I588090&tree=voorouders"
+    },
+    {
+      "achternaam": "Boogmans",
+      "voornaam": "Hendrikus Johannes Cornelis",
+      "geboortedatum": "19 nov 1928",
+      "geboorteplaats": "Rotterdam",
+      "overlijdensdatum": "21 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I198978&tree=voorouders"
+    },
+    {
+      "achternaam": "Both",
+      "voornaam": "Pieter",
+      "geboortedatum": "26 okt 1871",
+      "geboorteplaats": "Oud-Beijerland",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I816155&tree=voorouders"
+    },
+    {
+      "achternaam": "de Nijs",
+      "voornaam": "Pieter Joseph",
+      "geboortedatum": "28 jan 1917",
+      "geboorteplaats": "Rotterdam",
+      "overlijdensdatum": "17 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Broodbakker",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I203360&tree=voorouders"
+    },
+    {
+      "achternaam": "Godfroij",
+      "voornaam": "Jacoba Maria Christina",
+      "geboortedatum": "23 feb 1910",
+      "geboorteplaats": "Rotterdam",
+      "overlijdensdatum": "21 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Kantoorbediende",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I649836&tree=voorouders"
+    },
+    {
+      "achternaam": "Miedema",
+      "voornaam": "Hendrik Albert",
+      "geboortedatum": "15 aug 1921",
+      "geboorteplaats": "Rotterdam",
+      "overlijdensdatum": "21 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I440884&tree=voorouders"
+    },
+    {
+      "achternaam": "Ouwehand",
+      "voornaam": "Gerrit",
+      "geboortedatum": "1 aug 1918",
+      "geboorteplaats": "Rotterdam",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Bakker",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I189940&tree=voorouders"
+    },
+    {
+      "achternaam": "Schaap",
+      "voornaam": "Jan",
+      "geboortedatum": "10 apr 1921",
+      "geboorteplaats": "Rotterdam",
+      "overlijdensdatum": "21 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Bakker",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1497264&tree=voorouders"
+    },
+    {
+      "achternaam": "Stok",
+      "voornaam": "Jan",
+      "geboortedatum": "6 mei 1894",
+      "geboorteplaats": "Charlois",
+      "overlijdensdatum": "21 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Broodbezorger",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577466&tree=voorouders"
+    },
+    {
+      "achternaam": "Valk",
+      "voornaam": "Wilhelmina Anna Maria",
+      "geboortedatum": "11 jun 1921",
+      "geboorteplaats": "Rotterdam",
+      "overlijdensdatum": "3 jun 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I196125&tree=voorouders"
+    },
+    {
+      "achternaam": "van Barneveld",
+      "voornaam": "Jacobus",
+      "geboortedatum": "8 nov 1894",
+      "geboorteplaats": "Ede",
+      "overlijdensdatum": "18 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Bakker",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577297&tree=voorouders"
+    },
+    {
+      "achternaam": "van Grieken",
+      "voornaam": "Wilhelmus",
+      "geboortedatum": "5 mei 1880",
+      "geboorteplaats": "Mijdrecht",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Bakker",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I541439&tree=voorouders"
+    },
+    {
+      "achternaam": "van Kekem",
+      "voornaam": "Arina Anthonia",
+      "geboortedatum": "17 feb 1912",
+      "geboorteplaats": "Lexmond",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186522&tree=voorouders"
+    },
+    {
+      "achternaam": "van Munster",
+      "voornaam": "Adrianus Cornelis",
+      "geboortedatum": "17 jun 1920",
+      "geboorteplaats": "Rotterdam",
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "beroep": "Bakker",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I183801&tree=voorouders"
+    }
+  ]
+}

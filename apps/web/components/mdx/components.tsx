@@ -1,8 +1,7 @@
 // apps/web/components/mdx/components.tsx
 import * as React from 'react';
 
-import {DataTable} from '../grid/data-table';
-import {GridExample} from '../grid/grid-base';
+import {MdxDataTable} from '../grid/mdx-data-table'; // Nieuwe import
 import {Accordion} from './accordion';
 import {Alert} from './alert';
 import {Badge} from './badge';
@@ -25,6 +24,9 @@ import {Table} from './table';
 import {Tabs} from './tabs';
 import {Video} from './video';
 
+// GridExample verwijderd als deze niet meer bestaat of nodig is,
+// anders laat je hem staan maar DataTable krijgt nu voorrang via MdxDataTable
+
 export const components = {
   // Standaard wrapper voor MDX content
   wrapper: ({components, ...props}: any) => <div {...props} />,
@@ -39,11 +41,10 @@ export const components = {
   Collapsible,
   Command,
   CustomImage,
-  DataTable,
+  DataTable: MdxDataTable, // Hier koppelen we de Server Component
   Details,
   FileTree,
   Grid,
-  GridExample,
   HoverCard,
   img: CustomImage,
   Kbd,

@@ -1,0 +1,81 @@
+{
+  "columns": [
+    {
+      "field": "achternaam",
+      "headerName": "Achternaam",
+      "minWidth": 150,
+      "sort": "asc",
+      "sortIndex": 0
+    },
+    {
+      "field": "voornaam",
+      "headerName": "Voornaam",
+      "minWidth": 180
+    },
+    {
+      "field": "geboortedatum",
+      "headerName": "Geboren",
+      "minWidth": 100
+    },
+    {
+      "field": "geboorteplaats",
+      "headerName": "Geboorteplaats",
+      "minWidth": 150
+    },
+    {
+      "field": "overlijdensdatum",
+      "headerName": "Overleden",
+      "minWidth": 100
+    },
+    {
+      "field": "overlijdensplaats",
+      "headerName": "Overlijdensplaats",
+      "minWidth": 150
+    },
+    {
+      "field": "rang",
+      "headerName": "Functie",
+      "minWidth": 130
+    },
+    {
+      "field": "omgekomen",
+      "headerName": "Omgekomen",
+      "minWidth": 200
+    }
+  ],
+  "rows": [
+    {
+      "achternaam": "Bosman",
+      "voornaam": "Dirk Jan",
+      "geboortedatum": "23 apr 1892",
+      "geboorteplaats": "Charlois",
+      "overlijdensdatum": "11 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "rang": "Brandmeester",
+      "omgekomen": "Schulpenweg",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1546465&tree=voorouders"
+    },
+    {
+      "achternaam": "de Koning",
+      "voornaam": "Leendert",
+      "geboortedatum": "3 jul 1885",
+      "geboorteplaats": "Charlois",
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "rang": "Brandmeester",
+      "omgekomen": "Schulpenweg",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1291774&tree=voorouders"
+    },
+    {
+      "achternaam": "Westerlaken",
+      "voornaam": "Teunis",
+      "geboortedatum": "16 apr 1888",
+      "geboorteplaats": "Rockanje",
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Rotterdam",
+      "rang": "Majoor van Politie",
+      "omgekomen": "Schulpenweg",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I916075&tree=voorouders"
+    }
+  ]
+}

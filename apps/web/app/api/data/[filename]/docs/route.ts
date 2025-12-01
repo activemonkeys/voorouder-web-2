@@ -1,8 +1,7 @@
 // apps/web/app/api/data/[filename]/docs/route.ts
 import {NextRequest, NextResponse} from 'next/server';
 import {categories, datasets} from '@/config/datasets';
-import {loadDataFile} from '@/lib/api-utils';
-import {Column} from '@/types/api';
+import {loadDataFile} from '@/services/dataset-service';
 
 type Params = Promise<{filename: string}>;
 
@@ -22,12 +21,11 @@ export async function GET(request: NextRequest, {params}: {params: Params}) {
     const data = await loadDataFile(filename);
     if (!data) {
       return NextResponse.json(
-        {success: false, error: 'Data file not found'},
+        {success: false, error: 'Data file not found or invalid'},
         {status: 404},
       );
     }
 
-    // Veiligere toegang tot het eerste veld
     const firstField = data.columns[0]?.field || 'veldnaam';
 
     return NextResponse.json({
@@ -36,9 +34,9 @@ export async function GET(request: NextRequest, {params}: {params: Params}) {
         id: dataset.id,
         title: dataset.title,
         description: dataset.description,
-        category: categories[dataset.category],
+        category: categories[dataset.category] || dataset.category,
         lastUpdated: dataset.lastUpdated,
-        schema: data.columns.map((col: Column) => col.field),
+        schema: data.columns.map((col) => col.field),
         totalRecords: data.rows.length,
       },
       endpoints: {
@@ -52,7 +50,7 @@ export async function GET(request: NextRequest, {params}: {params: Params}) {
       usage: {
         filtering: {
           description: 'Filter resultaten door query parameters toe te voegen',
-          fields: data.columns.map((col: Column) => col.field),
+          fields: data.columns.map((col) => col.field),
           example: `/api/data/${filename}?achternaam=Jansen&geboorteplaats=Rotterdam`,
         },
         pagination: {

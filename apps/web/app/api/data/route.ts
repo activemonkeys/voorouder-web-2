@@ -1,7 +1,7 @@
 // apps/web/app/api/data/route.ts
 import {type NextRequest} from 'next/server';
-import {categories, datasets} from '@/config/datasets';
-import {loadDataFile} from '@/lib/api-utils';
+import {datasets} from '@/config/datasets';
+import {loadDataFile} from '@/services/dataset-service';
 
 export async function GET(request: NextRequest) {
   try {
@@ -14,12 +14,15 @@ export async function GET(request: NextRequest) {
 
     const datasetsWithSchema = await Promise.all(
       filteredDatasets.map(async (dataset) => {
+        // Gebruik de service om de data te laden (cached)
         const data = await loadDataFile(dataset.id);
+
         return {
           id: dataset.id,
           title: dataset.title,
           description: dataset.description,
-          category: categories[dataset.category],
+          // Voeg een check toe of categories[dataset.category] bestaat, of gebruik de key zelf
+          category: dataset.category,
           lastUpdated: dataset.lastUpdated,
           totalRecords: data?.rows?.length || 0,
           endpoints: {
@@ -30,12 +33,11 @@ export async function GET(request: NextRequest) {
       }),
     );
 
+    // Beperk response grootte door alleen noodzakelijke metadata terug te geven
+    // (We sturen hier niet de volledige 'categories' map mee, tenzij dat echt nodig is voor de UI)
     return Response.json({
       success: true,
-      categories: Object.entries(categories).map(([id, name]) => ({
-        id,
-        name,
-      })),
+      count: datasetsWithSchema.length,
       datasets: datasetsWithSchema,
     });
   } catch (error) {

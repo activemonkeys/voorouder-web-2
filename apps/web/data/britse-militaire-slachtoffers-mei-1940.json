@@ -1,0 +1,300 @@
+{
+  "columns": [
+    {
+      "field": "achternaam",
+      "headerName": "Achternaam",
+      "minWidth": 200,
+      "sort": "asc",
+      "sortIndex": 0
+    },
+    {
+      "field": "voornaam",
+      "headerName": "Voornaam",
+      "minWidth": 180
+    },
+    {
+      "field": "leeftijd",
+      "headerName": "Leeftijd",
+      "minWidth": 100
+    },
+    {
+      "field": "geboortedatum",
+      "headerName": "Geboren",
+      "minWidth": 100
+    },
+    {
+      "field": "overlijdensdatum",
+      "headerName": "Overleden",
+      "minWidth": 100
+    },
+    {
+      "field": "overlijdensplaats",
+      "headerName": "Overlijdensplaats",
+      "minWidth": 150
+    },
+    {
+      "field": "begraven",
+      "headerName": "Begraven",
+      "minWidth": 150
+    },
+    {
+      "field": "rang",
+      "headerName": "Rang",
+      "minWidth": 200
+    },
+    {
+      "field": "opmerking",
+      "headerName": "Opmerking",
+      "minWidth": 180
+    }
+  ],
+  "rows": [
+    {
+      "achternaam": "Anderson",
+      "voornaam": "Michael Herbert",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1917",
+      "geboorteplaats": null,
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Hoogvliet",
+      "rang": "Pilot",
+      "link": null,
+      "opmerking": "600e Squadron",
+      "begraven": "Spijkenisse"
+    },
+    {
+      "achternaam": "Bolger",
+      "voornaam": "Thomas",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1914",
+      "geboorteplaats": null,
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Hoek van Holland",
+      "rang": "Guardsman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I831442&tree=voorouders",
+      "opmerking": null,
+      "begraven": null
+    },
+    {
+      "achternaam": "Burke",
+      "voornaam": "James Thomas",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1909",
+      "geboorteplaats": null,
+      "overlijdensdatum": "13 mei 1940",
+      "overlijdensplaats": "Hoek van Holland",
+      "rang": "Guardsman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1472768&tree=voorouders",
+      "opmerking": null,
+      "begraven": null
+    },
+    {
+      "achternaam": "Carroll",
+      "voornaam": "Patrick",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1910",
+      "geboorteplaats": null,
+      "overlijdensdatum": "13 mei 1940",
+      "overlijdensplaats": "Hoek van Holland",
+      "rang": "Lance Corporal",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1474648&tree=voorouders",
+      "opmerking": null,
+      "begraven": null
+    },
+    {
+      "achternaam": "Cornelius",
+      "voornaam": "Arthur William",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1915",
+      "geboorteplaats": null,
+      "overlijdensdatum": "13 mei 1940",
+      "overlijdensplaats": "Hoek van Holland",
+      "rang": "Guardsman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1513526&tree=voorouders",
+      "opmerking": null,
+      "begraven": null
+    },
+    {
+      "achternaam": "Echlin",
+      "voornaam": "Robert Wyatt Hamilton",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1904",
+      "geboorteplaats": null,
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Piershil",
+      "rang": "Air Gunner",
+      "link": null,
+      "opmerking": "600e Squadron",
+      "begraven": "Piershil"
+    },
+    {
+      "achternaam": "Goshawk",
+      "voornaam": "Thomas",
+      "leeftijd": null,
+      "geboortedatum": null,
+      "geboorteplaats": null,
+      "overlijdensdatum": "11 mei 1940",
+      "overlijdensplaats": "Vlaardingen",
+      "rang": "Ordinary Seaman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I224333&tree=voorouders",
+      "opmerking": "Loodsboot 19 / Hr. Ms. BV 19A",
+      "begraven": null
+    },
+    {
+      "achternaam": "Hawkins",
+      "voornaam": "Herbert Charles William",
+      "leeftijd": null,
+      "geboortedatum": null,
+      "geboorteplaats": null,
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Hoogvliet",
+      "rang": "Air Gunner",
+      "link": null,
+      "opmerking": "600e Squadron",
+      "begraven": "Spijkenisse"
+    },
+    {
+      "achternaam": "Hayes",
+      "voornaam": "James William",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1916",
+      "geboorteplaats": null,
+      "overlijdensdatum": "13 mei 1940",
+      "overlijdensplaats": "Hoek van Holland",
+      "rang": "Guardsman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1478038&tree=voorouders",
+      "opmerking": null,
+      "begraven": null
+    },
+    {
+      "achternaam": "Higgs",
+      "voornaam": "Frank George",
+      "leeftijd": null,
+      "geboortedatum": null,
+      "geboorteplaats": null,
+      "overlijdensdatum": "11 mei 1940",
+      "overlijdensplaats": "Vlaardingen",
+      "rang": "Ordinary Seaman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I224332&tree=voorouders",
+      "opmerking": "Loodsboot 19 / Hr. Ms. BV 19A",
+      "begraven": null
+    },
+    {
+      "achternaam": "Isaacs",
+      "voornaam": "Laurence David",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1920",
+      "geboorteplaats": null,
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Waalhaven",
+      "rang": null,
+      "link": null,
+      "opmerking": "600e Squadron",
+      "begraven": "Rotterdam"
+    },
+    {
+      "achternaam": "Kidd",
+      "voornaam": "Basel Arthur",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1910",
+      "geboorteplaats": null,
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Pernis",
+      "rang": "Air Gunner",
+      "link": null,
+      "opmerking": "600e Squadron",
+      "begraven": "Rotterdam"
+    },
+    {
+      "achternaam": "Meechem",
+      "voornaam": "Reginald Alfred William",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1912",
+      "geboorteplaats": null,
+      "overlijdensdatum": "13 mei 1940",
+      "overlijdensplaats": "Hoek van Holland",
+      "rang": "Guardsman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1521956&tree=voorouders",
+      "opmerking": null,
+      "begraven": null
+    },
+    {
+      "achternaam": "Moore",
+      "voornaam": "Charles Roger",
+      "leeftijd": 30,
+      "geboortedatum": "6 mei 1910",
+      "geboorteplaats": null,
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Waalhaven",
+      "rang": "Pilot",
+      "link": null,
+      "opmerking": "600e Squadron",
+      "begraven": "Rotterdam"
+    },
+    {
+      "achternaam": "Murphy",
+      "voornaam": "Thomas",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1917",
+      "geboorteplaats": null,
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Hoek van Holland",
+      "rang": "Guardsman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1492421&tree=voorouders",
+      "opmerking": null,
+      "begraven": null
+    },
+    {
+      "achternaam": "Parker",
+      "voornaam": "Leonard Richard",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1912",
+      "geboorteplaats": null,
+      "overlijdensdatum": "13 mei 1940",
+      "overlijdensplaats": "Hoek van Holland",
+      "rang": "Lance Serjeant",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1496961&tree=voorouders",
+      "opmerking": null,
+      "begraven": null
+    },
+    {
+      "achternaam": "Power",
+      "voornaam": "Thomas",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1913",
+      "geboorteplaats": null,
+      "overlijdensdatum": "13 mei 1940",
+      "overlijdensplaats": "Hoek van Holland",
+      "rang": "Guardsman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1500968&tree=voorouders",
+      "opmerking": null,
+      "begraven": null
+    },
+    {
+      "achternaam": "Stuart",
+      "voornaam": "John Reginald",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1908",
+      "geboorteplaats": null,
+      "overlijdensdatum": "14 mei 1940",
+      "overlijdensplaats": "Hoek van Holland",
+      "rang": "Guardsman",
+      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1505477&tree=voorouders",
+      "opmerking": null,
+      "begraven": null
+    },
+    {
+      "achternaam": "Wells",
+      "voornaam": "James Michael",
+      "leeftijd": null,
+      "geboortedatum": "ca. 1909",
+      "geboorteplaats": null,
+      "overlijdensdatum": "10 mei 1940",
+      "overlijdensplaats": "Pernis",
+      "rang": "Commanding officer",
+      "link": null,
+      "opmerking": "600e Squadron",
+      "begraven": "Rotterdam"
+    }
+  ]
+}

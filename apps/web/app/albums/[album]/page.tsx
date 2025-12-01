@@ -1,42 +1,18 @@
 // apps/web/app/albums/[album]/page.tsx
-import fs from 'fs';
-import path from 'path';
+// Fix de import naar de nieuwe locatie
 import {Metadata} from 'next';
 import {notFound} from 'next/navigation';
-import AlbumGallery from '@/components/ui-ex/album-gallery';
-import {AlbumData} from '@/types/albums';
+import AlbumGallery from '@/components/domain/album-gallery'; // Was ui-ex
+import {getAlbumData, getAllAlbums} from '@/services/album-service';
 
+// Rest van de file blijft gelijk...
 type PageProps = {
   params: Promise<{album: string}>;
 };
 
-function getAlbumData(albumId: string): AlbumData | null {
-  try {
-    const filePath = path.join(
-      process.cwd(),
-      'config',
-      'albums',
-      `${albumId}.json`,
-    );
-    const fileContent = fs.readFileSync(filePath, 'utf8');
-    return JSON.parse(fileContent);
-  } catch (error) {
-    console.error('Error loading album:', error);
-    return null;
-  }
-}
-
 export async function generateStaticParams() {
-  const configPath = path.join(
-    process.cwd(),
-    'config',
-    'albums',
-    'config.json',
-  );
-  const configContent = fs.readFileSync(configPath, 'utf8');
-  const config = JSON.parse(configContent);
-
-  return config.albums.map((album: {id: string}) => ({
+  const albums = getAllAlbums();
+  return albums.map((album) => ({
     album: album.id,
   }));
 }

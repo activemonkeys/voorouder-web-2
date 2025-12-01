@@ -1,4 +1,4 @@
-// apps/web/components/ui-ex/gallery-card.tsx
+// apps/web/components/domain/gallery-card.tsx
 import Image from 'next/image';
 import {Link} from 'next-view-transitions';
 

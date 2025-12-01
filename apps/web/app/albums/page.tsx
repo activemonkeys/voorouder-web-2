@@ -1,7 +1,7 @@
 // apps/web/app/albums/page.tsx
 import {Metadata} from 'next';
 import Image from 'next/image';
-import {getAllAlbums} from '@/lib/albums';
+import {getAllAlbums} from '@/services/album-service';
 import {Link} from 'next-view-transitions';
 
 import {

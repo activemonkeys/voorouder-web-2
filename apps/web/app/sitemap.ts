@@ -1,6 +1,7 @@
 // apps/web/app/sitemap.ts
 import {MetadataRoute} from 'next';
-import {getAllContent} from '@/lib/content';
+import {ContentItem} from '@/lib/schemas'; // Import type
+import {getAllContent} from '@/services/content-service';
 
 type ChangeFreq = 'daily' | 'weekly' | 'monthly' | 'yearly';
 
@@ -52,7 +53,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   };
 
-  const contentRoutes = content.map((item) => ({
+  const contentRoutes = content.map((item: ContentItem) => ({
+    // Add type
     url: `${baseUrl}/${item.slug}`,
     lastModified: item.lastUpdated ? new Date(item.lastUpdated) : new Date(),
     changeFrequency: getChangeFrequency(item.type),

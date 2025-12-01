@@ -5,7 +5,11 @@ import {toast} from 'sonner';
 import {error as logError} from './lib/logger';
 import {ErrorMessage} from './types/core';
 
+// VERSIEBEHEER: Verhoog dit nummer als de grid structuur breekt (breaking changes)
+const GRID_STATE_VERSION = 1;
+
 interface GridState {
+  version: number;
   page: number;
   pageSize: number;
   filterModel?: any;
@@ -32,6 +36,7 @@ const defaultConfig: Required<GridStateConfig> = {
 };
 
 const defaultState: GridState = {
+  version: GRID_STATE_VERSION,
   page: 0,
   pageSize: 10,
   filterModel: null,
@@ -54,6 +59,7 @@ export const useGridState = (
   const handleStateUpdate = (event: {api: GridApi}) => {
     try {
       const currentState: GridState = {
+        version: GRID_STATE_VERSION,
         page: config.savePagination
           ? event.api.paginationGetCurrentPage()
           : defaultState.page,
@@ -104,12 +110,18 @@ export const useGridState = (
     }
   };
 
-  const isStateExpired = (timestamp?: number): boolean => {
-    if (!timestamp) {
-      return true;
+  const isStateValid = (state: GridState): boolean => {
+    // Check versie compatibiliteit
+    if (state.version !== GRID_STATE_VERSION) {
+      return false;
     }
+
+    if (!state.timestamp) {
+      return false; // Altijd false als er geen timestamp is
+    }
+
     const maxAge = config.cacheDurationHours * 60 * 60 * 1000;
-    return Date.now() - timestamp > maxAge;
+    return Date.now() - state.timestamp <= maxAge;
   };
 
   const getStoredState = (): GridState | null => {
@@ -119,12 +131,13 @@ export const useGridState = (
 
       const parsedState: GridState = JSON.parse(savedStateJson);
 
-      if (isStateExpired(parsedState.timestamp)) {
+      if (!isStateValid(parsedState)) {
         clearState();
         return null;
       }
 
       return {
+        version: parsedState.version,
         page: parsedState.page ?? defaultState.page,
         pageSize: parsedState.pageSize ?? defaultState.pageSize,
         filterModel: parsedState.filterModel ?? defaultState.filterModel,

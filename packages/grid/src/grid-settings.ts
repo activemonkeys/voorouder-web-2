@@ -1,5 +1,4 @@
 // packages/grid/src/grid-settings.ts
-
 import {
   AllCommunityModule,
   CellSelectionModule,
@@ -25,11 +24,23 @@ import {
   ServerSideRowModelModule,
   SetFilterModule,
   TreeDataModule,
+  ValidationModule,
 } from 'ag-grid-enterprise';
 
-import {AG_GRID_LOCALE_EN} from './locales/ag-grid-en';
-import {AG_GRID_LOCALE_NL} from './locales/ag-grid-nl';
+import { AG_GRID_LOCALE_EN } from './locales/ag-grid-en';
+import { AG_GRID_LOCALE_NL } from './locales/ag-grid-nl';
 
+// Nieuwe functie: Alleen gratis modules
+export const registerCommunityModules = () => {
+  ModuleRegistry.registerModules([
+    ClientSideRowModelModule,
+    AllCommunityModule,
+    CsvExportModule, // Community versie
+    ValidationModule // Belangrijk voor debugging
+  ]);
+};
+
+// Bestaande functie: Alles (voor enterprise apps indien nodig)
 export const registerClientSideModules = () => {
   ModuleRegistry.registerModules([
     ClientSideRowModelModule,
@@ -88,20 +99,18 @@ export const getLocaleText = (locale: string) => {
   }
 };
 
+// Base options geoptimaliseerd voor community gebruik
 const baseGridOptions: GridOptions = {
-  rowHeight: 50,
-  accentedSort: true,
-  paginationPageSizeSelector: [5, 10, 25, 50],
-  scrollbarWidth: 12,
+  rowHeight: 40, // Iets compacter voor data lijsten
   pagination: true,
   paginationPageSize: 10,
   suppressPaginationPanel: false,
   maintainColumnOrder: true,
-  cellSelection: true,
-  copyHeadersToClipboard: true,
+  // cellSelection: true, // Enterprise feature, uitzetten voor community
+  // copyHeadersToClipboard: true, // Enterprise feature
   animateRows: true,
-  suppressMovableColumns: true,
-  suppressColumnMoveAnimation: false,
+  suppressMovableColumns: false,
+  enableCellTextSelection: true, // Belangrijk: laat gebruikers tekst selecteren/kopiëren
 };
 
 const serverSideOptions: Partial<GridOptions> = {
@@ -126,15 +135,8 @@ export const getGridOptions = (isServerSide: boolean): GridOptions => {
 export const defaultColDef: ColDef = {
   flex: 1,
   minWidth: 120,
-  filter: true,
+  filter: true, // Standaard text/number filter (Community)
   resizable: true,
   sortable: true,
-  floatingFilter: true,
-  enableCellChangeFlash: false,
-  filterParams: {
-    buttons: ['reset'],
-    debounceMs: 200,
-    suppressAndOrCondition: true,
-  },
-  menuTabs: ['filterMenuTab', 'generalMenuTab', 'columnsMenuTab'],
+  floatingFilter: false, // Zet uit voor cleanere look icm search bar
 };

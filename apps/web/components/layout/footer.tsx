@@ -1,9 +1,10 @@
 // apps/web/components/layout/footer.tsx
 import * as React from 'react';
-import {Icons} from '@/components/ui-ex/icons'; // Zorg dat icons.tsx bestaat!
 import {siteConfig} from '@/config/site';
-import {cn} from '@/lib/utils';
 import {Link} from 'next-view-transitions';
+
+import {Icons} from '@workspace/ui/components/extended/icons';
+import {cn} from '@workspace/ui/lib/utils';
 
 type FooterProps = React.HTMLAttributes<HTMLElement>;
 
