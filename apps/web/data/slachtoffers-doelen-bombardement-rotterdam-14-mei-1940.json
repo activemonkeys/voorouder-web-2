@@ -1,423 +1,423 @@
 {
-  "columns": [
-    {
-      "field": "achternaam",
-      "headerName": "Achternaam",
-      "minWidth": 200,
-      "sort": "asc",
-      "sortIndex": 0
-    },
-    {
-      "field": "voornaam",
-      "headerName": "Voornaam",
-      "minWidth": 280
-    },
-    {
-      "field": "geboortedatum",
-      "headerName": "Geboren",
-      "minWidth": 120
-    },
-    {
-      "field": "geboorteplaats",
-      "headerName": "Geboorteplaats",
-      "minWidth": 150
-    },
-    {
-      "field": "overlijdensdatum",
-      "headerName": "Overleden",
-      "minWidth": 120
-    },
-    {
-      "field": "overlijdensplaats",
-      "headerName": "Overlijdensplaats",
-      "minWidth": 150
-    },
-    {
-      "field": "beroep",
-      "headerName": "Beroep",
-      "minWidth": 200
-    }
-  ],
-  "rows": [
-    {
-      "achternaam": "Albrich",
-      "voornaam": "Fr.",
-      "geboortedatum": "",
-      "geboorteplaats": "",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I192161&tree=voorouders"
-    },
-    {
-      "achternaam": "Berrischen",
-      "voornaam": "Johann Heinrich",
-      "geboortedatum": "2 dec 1902",
-      "geboorteplaats": "Düsseldorf",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Voorman",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I183644&tree=voorouders"
-    },
-    {
-      "achternaam": "Blind",
-      "voornaam": "Eugen Willy",
-      "geboortedatum": "31 dec 1900",
-      "geboorteplaats": "Heilbronn",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Behanger",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577260&tree=voorouders"
-    },
-    {
-      "achternaam": "Bok",
-      "voornaam": "Anne",
-      "geboortedatum": "14 aug 1906",
-      "geboorteplaats": "Uithuizen",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Agent van Politie",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186173&tree=voorouders"
-    },
-    {
-      "achternaam": "Bosma",
-      "voornaam": "Nicolaas",
-      "geboortedatum": "23 dec 1890",
-      "geboorteplaats": "Weststellingwerf",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Agent van Politie",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186321&tree=voorouders"
-    },
-    {
-      "achternaam": "Brien",
-      "voornaam": "Karl Heinrich",
-      "geboortedatum": "14 aug 1892",
-      "geboorteplaats": "Kaub",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Schipper",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577143&tree=voorouders"
-    },
-    {
-      "achternaam": "den Otter",
-      "voornaam": "Mattheus Jan",
-      "geboortedatum": "21 aug 1898",
-      "geboorteplaats": "Barendrecht",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Agent van Politie",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I183589&tree=voorouders"
-    },
-    {
-      "achternaam": "Friedland",
-      "voornaam": "Martin",
-      "geboortedatum": "ca. 1882",
-      "geboorteplaats": "Stargard",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Musicus",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577107&tree=voorouders"
-    },
-    {
-      "achternaam": "Gans",
-      "voornaam": "Hendrik",
-      "geboortedatum": "21 nov 1898",
-      "geboorteplaats": "Hellevoetsluis",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Agent van Politie",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1421658&tree=voorouders"
-    },
-    {
-      "achternaam": "Hartog",
-      "voornaam": "Hugo Israel",
-      "geboortedatum": "30 jan 1886",
-      "geboorteplaats": "Sankt Jobs",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577161&tree=voorouders"
-    },
-    {
-      "achternaam": "Heidt",
-      "voornaam": "Max",
-      "geboortedatum": "17 mei 1900",
-      "geboorteplaats": "Gießen",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Koopman",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1274881&tree=voorouders"
-    },
-    {
-      "achternaam": "Hopp",
-      "voornaam": "Semmy",
-      "geboortedatum": "29 jul 1903",
-      "geboorteplaats": "Srem",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Koopman",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I118535&tree=voorouders"
-    },
-    {
-      "achternaam": "Hoppstein",
-      "voornaam": "Wilhelm",
-      "geboortedatum": "1 jun 1908",
-      "geboorteplaats": "Stolberg",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Cartonnagewerker",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I183905&tree=voorouders"
-    },
-    {
-      "achternaam": "Jansen",
-      "voornaam": "Johann",
-      "geboortedatum": "20 okt 1884",
-      "geboorteplaats": "Ehrenfeld",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Kapper",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1318875&tree=voorouders"
-    },
-    {
-      "achternaam": "Klein",
-      "voornaam": "Bernard Johannes",
-      "geboortedatum": "23 dec 1898",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Koopman",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I595866&tree=voorouders"
-    },
-    {
-      "achternaam": "Kücken",
-      "voornaam": "Karl Hermann",
-      "geboortedatum": "15 apr 1910",
-      "geboorteplaats": "Neuengamme",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Procuratiehouder",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577105&tree=voorouders"
-    },
-    {
-      "achternaam": "Mansbach",
-      "voornaam": "Irwin",
-      "geboortedatum": "21 aug 1909",
-      "geboorteplaats": "Gudensberg",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Slager",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1521668&tree=voorouders"
-    },
-    {
-      "achternaam": "Meijer",
-      "voornaam": "Hans Hermann",
-      "geboortedatum": "20 aug 1898",
-      "geboorteplaats": "Berlin",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Scheikundige",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577128&tree=voorouders"
-    },
-    {
-      "achternaam": "Michaelis",
-      "voornaam": "Ernst Israel",
-      "geboortedatum": "ca. 1881",
-      "geboorteplaats": "",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Verfmeester",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I192319&tree=voorouders"
-    },
-    {
-      "achternaam": "Neffendorf",
-      "voornaam": "Paul",
-      "geboortedatum": "16 dec 1885",
-      "geboorteplaats": "Ohligs",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Ingenieur",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I188080&tree=voorouders"
-    },
-    {
-      "achternaam": "Neu",
-      "voornaam": "Johann",
-      "geboortedatum": "28 apr 1888",
-      "geboorteplaats": "Honhardt",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Kuiper",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I188698&tree=voorouders"
-    },
-    {
-      "achternaam": "Noordhoek",
-      "voornaam": "Jacob",
-      "geboortedatum": "24 jul 1893",
-      "geboorteplaats": "Numansdorp",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Majoor van Politie",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186435&tree=voorouders"
-    },
-    {
-      "achternaam": "Redeker",
-      "voornaam": "Friedrich Johannes",
-      "geboortedatum": "18 nov 1909",
-      "geboorteplaats": "Bant",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Schilder",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577209&tree=voorouders"
-    },
-    {
-      "achternaam": "Roth",
-      "voornaam": "Erich",
-      "geboortedatum": "27 apr 1906",
-      "geboorteplaats": "Osterfeld",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Chemotechniker",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I192341&tree=voorouders"
-    },
-    {
-      "achternaam": "Salomon",
-      "voornaam": "Werner Günther",
-      "geboortedatum": "6 okt 1905",
-      "geboorteplaats": "Berlin",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Kantoorbediende",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577180&tree=voorouders"
-    },
-    {
-      "achternaam": "Schneider",
-      "voornaam": "Wilhelm Erich",
-      "geboortedatum": "21 aug 1895",
-      "geboorteplaats": "Wurzen",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Winkelier",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1502926&tree=voorouders"
-    },
-    {
-      "achternaam": "Schrenzel",
-      "voornaam": "Siegfried",
-      "geboortedatum": "ca. 1897",
-      "geboorteplaats": "Weener",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Handelsvertegenwoordiger",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577106&tree=voorouders"
-    },
-    {
-      "achternaam": "Schrupp",
-      "voornaam": "Wilhelm",
-      "geboortedatum": "26 okt 1883",
-      "geboorteplaats": "Waldbröl",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Directeur",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I184123&tree=voorouders"
-    },
-    {
-      "achternaam": "Schulte",
-      "voornaam": "Kurt Friedrich Karl",
-      "geboortedatum": "8 jul 1907",
-      "geboorteplaats": "Lüdenscheid",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Kantoorbediende",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I185325&tree=voorouders"
-    },
-    {
-      "achternaam": "Sperling",
-      "voornaam": "Ernst",
-      "geboortedatum": "ca. 1895",
-      "geboorteplaats": "Ternopil'",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Arts",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186492&tree=voorouders"
-    },
-    {
-      "achternaam": "Stattler",
-      "voornaam": "August Philipp",
-      "geboortedatum": "22 aug 1886",
-      "geboorteplaats": "Bad Tölz",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Machinist",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1485278&tree=voorouders"
-    },
-    {
-      "achternaam": "Timmer",
-      "voornaam": "Gerrit Wilhelm",
-      "geboortedatum": "12 mei 1915",
-      "geboorteplaats": "Assen",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "'s-Gravenhage",
-      "beroep": "Agent van Politie",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I528874&tree=voorouders"
-    },
-    {
-      "achternaam": "Ullmann",
-      "voornaam": "Hugo Hellmut",
-      "geboortedatum": "9 apr 1910",
-      "geboorteplaats": "Chemnitz",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Monteur",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577139&tree=voorouders"
-    },
-    {
-      "achternaam": "van der Linden",
-      "voornaam": "Nicolaas",
-      "geboortedatum": "23 apr 1894",
-      "geboorteplaats": "Breda",
-      "overlijdensdatum": "28 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Agent van Politie",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186275&tree=voorouders"
-    },
-    {
-      "achternaam": "van der Weele",
-      "voornaam": "Johannis Cornelis",
-      "geboortedatum": "23 nov 1885",
-      "geboorteplaats": "Colijnsplaat",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Hoofdinspecteur van Politie",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1399538&tree=voorouders"
-    },
-    {
-      "achternaam": "Wartelsky",
-      "voornaam": "Werner Israel",
-      "geboortedatum": "4 mei 1910",
-      "geboorteplaats": "Königsberg",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I183471&tree=voorouders"
-    },
-    {
-      "achternaam": "Wiegand",
-      "voornaam": "Walter Paul",
-      "geboortedatum": "3 aug 1906",
-      "geboorteplaats": "Barmen",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Ankerwikkelaar",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I243150&tree=voorouders"
-    },
-    {
-      "achternaam": "Wielaard",
-      "voornaam": "Arie",
-      "geboortedatum": "15 jul 1909",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Agent van Politie",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I666436&tree=voorouders"
-    }
-  ]
+    "columns": [
+        {
+            "field": "achternaam",
+            "headerName": "Achternaam",
+            "minWidth": 200,
+            "sort": "asc",
+            "sortIndex": 0
+        },
+        {
+            "field": "voornaam",
+            "headerName": "Voornaam",
+            "minWidth": 280
+        },
+        {
+            "field": "geboortedatum",
+            "headerName": "Geboren",
+            "minWidth": 120
+        },
+        {
+            "field": "geboorteplaats",
+            "headerName": "Geboorteplaats",
+            "minWidth": 150
+        },
+        {
+            "field": "overlijdensdatum",
+            "headerName": "Overleden",
+            "minWidth": 120
+        },
+        {
+            "field": "overlijdensplaats",
+            "headerName": "Overlijdensplaats",
+            "minWidth": 150
+        },
+        {
+            "field": "beroep",
+            "headerName": "Beroep",
+            "minWidth": 200
+        }
+    ],
+    "rows": [
+        {
+            "achternaam": "Albrich",
+            "voornaam": "Fr.",
+            "geboortedatum": "",
+            "geboorteplaats": "",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I192161&tree=voorouders"
+        },
+        {
+            "achternaam": "Berrischen",
+            "voornaam": "Johann Heinrich",
+            "geboortedatum": "2 dec 1902",
+            "geboorteplaats": "Düsseldorf",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Voorman",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I183644&tree=voorouders"
+        },
+        {
+            "achternaam": "Blind",
+            "voornaam": "Eugen Willy",
+            "geboortedatum": "31 dec 1900",
+            "geboorteplaats": "Heilbronn",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Behanger",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577260&tree=voorouders"
+        },
+        {
+            "achternaam": "Bok",
+            "voornaam": "Anne",
+            "geboortedatum": "14 aug 1906",
+            "geboorteplaats": "Uithuizen",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Agent van Politie",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186173&tree=voorouders"
+        },
+        {
+            "achternaam": "Bosma",
+            "voornaam": "Nicolaas",
+            "geboortedatum": "23 dec 1890",
+            "geboorteplaats": "Weststellingwerf",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Agent van Politie",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186321&tree=voorouders"
+        },
+        {
+            "achternaam": "Brien",
+            "voornaam": "Karl Heinrich",
+            "geboortedatum": "14 aug 1892",
+            "geboorteplaats": "Kaub",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Schipper",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577143&tree=voorouders"
+        },
+        {
+            "achternaam": "den Otter",
+            "voornaam": "Mattheus Jan",
+            "geboortedatum": "21 aug 1898",
+            "geboorteplaats": "Barendrecht",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Agent van Politie",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I183589&tree=voorouders"
+        },
+        {
+            "achternaam": "Friedland",
+            "voornaam": "Martin",
+            "geboortedatum": "ca. 1882",
+            "geboorteplaats": "Stargard",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Musicus",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577107&tree=voorouders"
+        },
+        {
+            "achternaam": "Gans",
+            "voornaam": "Hendrik",
+            "geboortedatum": "21 nov 1898",
+            "geboorteplaats": "Hellevoetsluis",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Agent van Politie",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1421658&tree=voorouders"
+        },
+        {
+            "achternaam": "Hartog",
+            "voornaam": "Hugo Israel",
+            "geboortedatum": "30 jan 1886",
+            "geboorteplaats": "Sankt Jobs",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577161&tree=voorouders"
+        },
+        {
+            "achternaam": "Heidt",
+            "voornaam": "Max",
+            "geboortedatum": "17 mei 1900",
+            "geboorteplaats": "Gießen",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Koopman",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1274881&tree=voorouders"
+        },
+        {
+            "achternaam": "Hopp",
+            "voornaam": "Semmy",
+            "geboortedatum": "29 jul 1903",
+            "geboorteplaats": "Srem",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Koopman",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I118535&tree=voorouders"
+        },
+        {
+            "achternaam": "Hoppstein",
+            "voornaam": "Wilhelm",
+            "geboortedatum": "1 jun 1908",
+            "geboorteplaats": "Stolberg",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Cartonnagewerker",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I183905&tree=voorouders"
+        },
+        {
+            "achternaam": "Jansen",
+            "voornaam": "Johann",
+            "geboortedatum": "20 okt 1884",
+            "geboorteplaats": "Ehrenfeld",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Kapper",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1318875&tree=voorouders"
+        },
+        {
+            "achternaam": "Klein",
+            "voornaam": "Bernard Johannes",
+            "geboortedatum": "23 dec 1898",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Koopman",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I595866&tree=voorouders"
+        },
+        {
+            "achternaam": "Kücken",
+            "voornaam": "Karl Hermann",
+            "geboortedatum": "15 apr 1910",
+            "geboorteplaats": "Neuengamme",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Procuratiehouder",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577105&tree=voorouders"
+        },
+        {
+            "achternaam": "Mansbach",
+            "voornaam": "Irwin",
+            "geboortedatum": "21 aug 1909",
+            "geboorteplaats": "Gudensberg",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Slager",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1521668&tree=voorouders"
+        },
+        {
+            "achternaam": "Meijer",
+            "voornaam": "Hans Hermann",
+            "geboortedatum": "20 aug 1898",
+            "geboorteplaats": "Berlin",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Scheikundige",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577128&tree=voorouders"
+        },
+        {
+            "achternaam": "Michaelis",
+            "voornaam": "Ernst Israel",
+            "geboortedatum": "ca. 1881",
+            "geboorteplaats": "",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Verfmeester",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I192319&tree=voorouders"
+        },
+        {
+            "achternaam": "Neffendorf",
+            "voornaam": "Paul",
+            "geboortedatum": "16 dec 1885",
+            "geboorteplaats": "Ohligs",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Ingenieur",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I188080&tree=voorouders"
+        },
+        {
+            "achternaam": "Neu",
+            "voornaam": "Johann",
+            "geboortedatum": "28 apr 1888",
+            "geboorteplaats": "Honhardt",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Kuiper",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I188698&tree=voorouders"
+        },
+        {
+            "achternaam": "Noordhoek",
+            "voornaam": "Jacob",
+            "geboortedatum": "24 jul 1893",
+            "geboorteplaats": "Numansdorp",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Majoor van Politie",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186435&tree=voorouders"
+        },
+        {
+            "achternaam": "Redeker",
+            "voornaam": "Friedrich Johannes",
+            "geboortedatum": "18 nov 1909",
+            "geboorteplaats": "Bant",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Schilder",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577209&tree=voorouders"
+        },
+        {
+            "achternaam": "Roth",
+            "voornaam": "Erich",
+            "geboortedatum": "27 apr 1906",
+            "geboorteplaats": "Osterfeld",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Chemotechniker",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I192341&tree=voorouders"
+        },
+        {
+            "achternaam": "Salomon",
+            "voornaam": "Werner Günther",
+            "geboortedatum": "6 okt 1905",
+            "geboorteplaats": "Berlin",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Kantoorbediende",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577180&tree=voorouders"
+        },
+        {
+            "achternaam": "Schneider",
+            "voornaam": "Wilhelm Erich",
+            "geboortedatum": "21 aug 1895",
+            "geboorteplaats": "Wurzen",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Winkelier",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1502926&tree=voorouders"
+        },
+        {
+            "achternaam": "Schrenzel",
+            "voornaam": "Siegfried",
+            "geboortedatum": "ca. 1897",
+            "geboorteplaats": "Weener",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Handelsvertegenwoordiger",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577106&tree=voorouders"
+        },
+        {
+            "achternaam": "Schrupp",
+            "voornaam": "Wilhelm",
+            "geboortedatum": "26 okt 1883",
+            "geboorteplaats": "Waldbröl",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Directeur",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I184123&tree=voorouders"
+        },
+        {
+            "achternaam": "Schulte",
+            "voornaam": "Kurt Friedrich Karl",
+            "geboortedatum": "8 jul 1907",
+            "geboorteplaats": "Lüdenscheid",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Kantoorbediende",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I185325&tree=voorouders"
+        },
+        {
+            "achternaam": "Sperling",
+            "voornaam": "Ernst",
+            "geboortedatum": "ca. 1895",
+            "geboorteplaats": "Ternopil'",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Arts",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186492&tree=voorouders"
+        },
+        {
+            "achternaam": "Stattler",
+            "voornaam": "August Philipp",
+            "geboortedatum": "22 aug 1886",
+            "geboorteplaats": "Bad Tölz",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Machinist",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1485278&tree=voorouders"
+        },
+        {
+            "achternaam": "Timmer",
+            "voornaam": "Gerrit Wilhelm",
+            "geboortedatum": "12 mei 1915",
+            "geboorteplaats": "Assen",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "'s-Gravenhage",
+            "beroep": "Agent van Politie",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I528874&tree=voorouders"
+        },
+        {
+            "achternaam": "Ullmann",
+            "voornaam": "Hugo Hellmut",
+            "geboortedatum": "9 apr 1910",
+            "geboorteplaats": "Chemnitz",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Monteur",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577139&tree=voorouders"
+        },
+        {
+            "achternaam": "van der Linden",
+            "voornaam": "Nicolaas",
+            "geboortedatum": "23 apr 1894",
+            "geboorteplaats": "Breda",
+            "overlijdensdatum": "28 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Agent van Politie",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186275&tree=voorouders"
+        },
+        {
+            "achternaam": "van der Weele",
+            "voornaam": "Johannis Cornelis",
+            "geboortedatum": "23 nov 1885",
+            "geboorteplaats": "Colijnsplaat",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Hoofdinspecteur van Politie",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1399538&tree=voorouders"
+        },
+        {
+            "achternaam": "Wartelsky",
+            "voornaam": "Werner Israel",
+            "geboortedatum": "4 mei 1910",
+            "geboorteplaats": "Königsberg",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I183471&tree=voorouders"
+        },
+        {
+            "achternaam": "Wiegand",
+            "voornaam": "Walter Paul",
+            "geboortedatum": "3 aug 1906",
+            "geboorteplaats": "Barmen",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Ankerwikkelaar",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I243150&tree=voorouders"
+        },
+        {
+            "achternaam": "Wielaard",
+            "voornaam": "Arie",
+            "geboortedatum": "15 jul 1909",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Agent van Politie",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I666436&tree=voorouders"
+        }
+    ]
 }

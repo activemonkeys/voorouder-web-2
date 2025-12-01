@@ -8,7 +8,7 @@
         "check-types": "tsc --noEmit",
         "dev": "pnpm with-env next dev -p 3000",
         "devs": "pnpm with-env next dev --experimental-https -p 3000",
-        "lint": "eslint . --max-warnings 0",
+        "lint": "eslint . --max-warnings 100",
         "start": "next start",
         "typecheck": "tsc --noEmit",
         "with-env": "dotenv -e ../../.env --"

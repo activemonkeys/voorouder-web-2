@@ -1,3 +1,4 @@
+// apps/web/components/mdx/alert.tsx
 import {AlertCircle, AlertTriangle, CheckCircle, Info} from 'lucide-react';
 
 import {

@@ -1,83 +1,83 @@
 {
-  "columns": [
-    {
-      "field": "achternaam",
-      "headerName": "Achternaam",
-      "minWidth": 260,
-      "sort": "asc",
-      "sortIndex": 0
-    },
-    {
-      "field": "voornaam",
-      "headerName": "Voornaam",
-      "minWidth": 260
-    },
-    {
-      "field": "leeftijd",
-      "headerName": "Leeftijd",
-      "minWidth": 100
-    },
-    {
-      "field": "geboortedatum",
-      "headerName": "Geboren",
-      "minWidth": 160
-    },
-    {
-      "field": "geboorteplaats",
-      "headerName": "Geboorteplaats",
-      "minWidth": 160
-    },
-    {
-      "field": "adres",
-      "headerName": "Adres",
-      "minWidth": 160
-    },
-    {
-      "field": "beroep",
-      "headerName": "Beroep",
-      "minWidth": 160
-    }
-  ],
-  "rows": [
-    {
-      "achternaam": "Barendregt",
-      "voornaam": "Joanna IJdalia",
-      "leeftijd": null,
-      "geboortedatum": "6 mei 1910",
-      "geboorteplaats": "Rotterdam",
-      "adres": "Taandersstraat 141",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I664401&tree=voorouders"
-    },
-    {
-      "achternaam": "Barendregt",
-      "voornaam": "Sijgje",
-      "leeftijd": null,
-      "geboortedatum": "5 feb 1904",
-      "geboorteplaats": "Rotterdam",
-      "adres": "Taandersstraat 141",
-      "beroep": "Naaister",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I815151&tree=voorouders"
-    },
-    {
-      "achternaam": "Eijgel",
-      "voornaam": "Joanna Gerdina",
-      "leeftijd": null,
-      "geboortedatum": "9 nov 1879",
-      "geboorteplaats": "Charlois",
-      "adres": "Taandersstraat 141",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I534801&tree=voorouders"
-    },
-    {
-      "achternaam": "Jonker",
-      "voornaam": "Johan",
-      "leeftijd": null,
-      "geboortedatum": "18 jan 1895",
-      "geboorteplaats": "Lonneker",
-      "adres": "van Duijlstraat 88b",
-      "beroep": "Schoenmaker",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I231329&tree=voorouders"
-    }
-  ]
+    "columns": [
+        {
+            "field": "achternaam",
+            "headerName": "Achternaam",
+            "minWidth": 260,
+            "sort": "asc",
+            "sortIndex": 0
+        },
+        {
+            "field": "voornaam",
+            "headerName": "Voornaam",
+            "minWidth": 260
+        },
+        {
+            "field": "leeftijd",
+            "headerName": "Leeftijd",
+            "minWidth": 100
+        },
+        {
+            "field": "geboortedatum",
+            "headerName": "Geboren",
+            "minWidth": 160
+        },
+        {
+            "field": "geboorteplaats",
+            "headerName": "Geboorteplaats",
+            "minWidth": 160
+        },
+        {
+            "field": "adres",
+            "headerName": "Adres",
+            "minWidth": 160
+        },
+        {
+            "field": "beroep",
+            "headerName": "Beroep",
+            "minWidth": 160
+        }
+    ],
+    "rows": [
+        {
+            "achternaam": "Barendregt",
+            "voornaam": "Joanna IJdalia",
+            "leeftijd": null,
+            "geboortedatum": "6 mei 1910",
+            "geboorteplaats": "Rotterdam",
+            "adres": "Taandersstraat 141",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I664401&tree=voorouders"
+        },
+        {
+            "achternaam": "Barendregt",
+            "voornaam": "Sijgje",
+            "leeftijd": null,
+            "geboortedatum": "5 feb 1904",
+            "geboorteplaats": "Rotterdam",
+            "adres": "Taandersstraat 141",
+            "beroep": "Naaister",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I815151&tree=voorouders"
+        },
+        {
+            "achternaam": "Eijgel",
+            "voornaam": "Joanna Gerdina",
+            "leeftijd": null,
+            "geboortedatum": "9 nov 1879",
+            "geboorteplaats": "Charlois",
+            "adres": "Taandersstraat 141",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I534801&tree=voorouders"
+        },
+        {
+            "achternaam": "Jonker",
+            "voornaam": "Johan",
+            "leeftijd": null,
+            "geboortedatum": "18 jan 1895",
+            "geboorteplaats": "Lonneker",
+            "adres": "van Duijlstraat 88b",
+            "beroep": "Schoenmaker",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I231329&tree=voorouders"
+        }
+    ]
 }

@@ -1,411 +1,411 @@
 {
-  "columns": [
-    {
-      "field": "achternaam",
-      "headerName": "Achternaam",
-      "minWidth": 150,
-      "sort": "asc",
-      "sortIndex": 0
-    },
-    {
-      "field": "voornaam",
-      "headerName": "Voornaam",
-      "minWidth": 180
-    },
-    {
-      "field": "leeftijd",
-      "headerName": "Leeftijd",
-      "minWidth": 100
-    },
-    {
-      "field": "geboortedatum",
-      "headerName": "Geboren",
-      "minWidth": 100
-    },
-    {
-      "field": "geboorteplaats",
-      "headerName": "Geboorteplaats",
-      "minWidth": 150
-    },
-    {
-      "field": "overlijdensdatum",
-      "headerName": "Overleden",
-      "minWidth": 100
-    },
-    {
-      "field": "overlijdensplaats",
-      "headerName": "Overlijdensplaats",
-      "minWidth": 150
-    },
-    {
-      "field": "beroep",
-      "headerName": "Beroep",
-      "minWidth": 130
-    }
-  ],
-  "rows": [
-    {
-      "achternaam": "Akkermans",
-      "voornaam": "Teuna Adriana",
-      "leeftijd": 25,
-      "geboortedatum": "7 feb 1915",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "22 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I198726&tree=voorouders"
-    },
-    {
-      "achternaam": "Bood",
-      "voornaam": "Jetje",
-      "leeftijd": 56,
-      "geboortedatum": "29 okt 1883",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I696336&tree=voorouders"
-    },
-    {
-      "achternaam": "Boon",
-      "voornaam": "Arnoldus",
-      "leeftijd": 47,
-      "geboortedatum": "18 jan 1893",
-      "geboorteplaats": "Maurik",
-      "overlijdensdatum": "19 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I199057&tree=voorouders"
-    },
-    {
-      "achternaam": "Bourguignon",
-      "voornaam": "Petrus",
-      "leeftijd": 50,
-      "geboortedatum": "20 mei 1889",
-      "geboorteplaats": "Kralingen",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "'s-Gravenhage",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I290259&tree=voorouders"
-    },
-    {
-      "achternaam": "Büller",
-      "voornaam": "Jacob Johannes",
-      "leeftijd": 90,
-      "geboortedatum": "26 sep 1849",
-      "geboorteplaats": "Giessendam",
-      "overlijdensdatum": "10 jun 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Schilder",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I358556&tree=voorouders"
-    },
-    {
-      "achternaam": "Cismondi",
-      "voornaam": "Eduarda",
-      "leeftijd": 52,
-      "geboortedatum": "18 jan 1888",
-      "geboorteplaats": "Cuneo",
-      "overlijdensdatum": "16 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Directeur",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I352121&tree=voorouders"
-    },
-    {
-      "achternaam": "Craanen",
-      "voornaam": "Lucia",
-      "leeftijd": 60,
-      "geboortedatum": "20 aug 1879",
-      "geboorteplaats": "Arnhem",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Dienstbode",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I571564&tree=voorouders"
-    },
-    {
-      "achternaam": "de Groot",
-      "voornaam": "Anna Maria",
-      "leeftijd": 78,
-      "geboortedatum": "6 mrt 1862",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "11 jun 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I359749&tree=voorouders"
-    },
-    {
-      "achternaam": "de Wit",
-      "voornaam": "Johannis",
-      "leeftijd": 77,
-      "geboortedatum": "21 mrt 1863",
-      "geboorteplaats": "Dinteloord",
-      "overlijdensdatum": "16 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Wagenmaker",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I350069&tree=voorouders"
-    },
-    {
-      "achternaam": "Hemelaar",
-      "voornaam": "Gerrit",
-      "leeftijd": 23,
-      "geboortedatum": "11 sep 1916",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "25 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Broodbakker",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I200297&tree=voorouders"
-    },
-    {
-      "achternaam": "Hoppenbrouwer",
-      "voornaam": "Maria Catharina Helena",
-      "leeftijd": 82,
-      "geboortedatum": "27 nov 1858",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "1 jan 1941",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I429874&tree=voorouders"
-    },
-    {
-      "achternaam": "Hoppezak",
-      "voornaam": "Martinus Adrianus",
-      "leeftijd": 61,
-      "geboortedatum": "6 jun 1878",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "16 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Warmoezier",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I61749&tree=voorouders"
-    },
-    {
-      "achternaam": "Kok",
-      "voornaam": "Johannes",
-      "leeftijd": 39,
-      "geboortedatum": "1 mrt 1901",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "28 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Broodbakker",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I556160&tree=voorouders"
-    },
-    {
-      "achternaam": "Langerak",
-      "voornaam": "Bertus",
-      "leeftijd": 30,
-      "geboortedatum": "3 jun 1909",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Broodbakker",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I675910&tree=voorouders"
-    },
-    {
-      "achternaam": "Oelsner",
-      "voornaam": "Marie Ulrike",
-      "leeftijd": 51,
-      "geboortedatum": "14 sep 1888",
-      "geboorteplaats": "Amsterdam",
-      "overlijdensdatum": "23 jun 1940",
-      "overlijdensplaats": "Amsterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I350821&tree=voorouders"
-    },
-    {
-      "achternaam": "Peters",
-      "voornaam": "Johannes",
-      "leeftijd": 59,
-      "geboortedatum": "5 apr 1881",
-      "geboorteplaats": "Arnhem",
-      "overlijdensdatum": "27 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Barbier",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I385742&tree=voorouders"
-    },
-    {
-      "achternaam": "Schmolka",
-      "voornaam": "Erich",
-      "leeftijd": null,
-      "geboortedatum": "10 mei 1921",
-      "geboorteplaats": "Wien",
-      "overlijdensdatum": "",
-      "overlijdensplaats": "",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I240576&tree=voorouders"
-    },
-    {
-      "achternaam": "Slegtenhorst",
-      "voornaam": "Cornelis",
-      "leeftijd": 26,
-      "geboortedatum": "23 feb 1914",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "22 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Bankwerker",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I462184&tree=voorouders"
-    },
-    {
-      "achternaam": "Smit",
-      "voornaam": "Toontje Johanna",
-      "leeftijd": 76,
-      "geboortedatum": "21 jan 1864",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "6 jun 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Werkster",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I325876&tree=voorouders"
-    },
-    {
-      "achternaam": "Steevens",
-      "voornaam": "Elizabeth",
-      "leeftijd": 57,
-      "geboortedatum": "23 mei 1883",
-      "geboorteplaats": "Zaltbommel",
-      "overlijdensdatum": "27 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Werkster",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I470952&tree=voorouders"
-    },
-    {
-      "achternaam": "van Bokkem",
-      "voornaam": "Arij",
-      "leeftijd": 78,
-      "geboortedatum": "19 feb 1862",
-      "geboorteplaats": "Poortugaal",
-      "overlijdensdatum": "18 jun 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Schipper",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I644851&tree=voorouders"
-    },
-    {
-      "achternaam": "van Dam",
-      "voornaam": "Jansje",
-      "leeftijd": 35,
-      "geboortedatum": "30 aug 1904",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I542730&tree=voorouders"
-    },
-    {
-      "achternaam": "van Dijk",
-      "voornaam": "Geert",
-      "leeftijd": 2,
-      "geboortedatum": "20 aug 1937",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "26 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I205522&tree=voorouders"
-    },
-    {
-      "achternaam": "van Zon",
-      "voornaam": "Susanna",
-      "leeftijd": 21,
-      "geboortedatum": "2 jan 1919",
-      "geboorteplaats": "Schiedam",
-      "overlijdensdatum": "20 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Dienstbode",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I534382&tree=voorouders"
-    },
-    {
-      "achternaam": "Verhagen",
-      "voornaam": "Jan",
-      "leeftijd": 64,
-      "geboortedatum": "21 feb 1876",
-      "geboorteplaats": "Pernis",
-      "overlijdensdatum": "4 sep 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Metselaar",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I524664&tree=voorouders"
-    },
-    {
-      "achternaam": "Verhoeven",
-      "voornaam": "Simon Huibert",
-      "leeftijd": null,
-      "geboortedatum": "ca. 1933",
-      "geboorteplaats": "Mijnsheerenland",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186903&tree=voorouders"
-    },
-    {
-      "achternaam": "Volders",
-      "voornaam": "Johanna Helena Maria",
-      "leeftijd": 52,
-      "geboortedatum": "8 sep 1887",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "25 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Huisbewaarster",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I771134&tree=voorouders"
-    },
-    {
-      "achternaam": "Vos",
-      "voornaam": "Hendrik Johannes",
-      "leeftijd": 52,
-      "geboortedatum": "6 okt 1887",
-      "geboorteplaats": "Gent",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Schipper",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I2812&tree=voorouders"
-    },
-    {
-      "achternaam": "Vrekke",
-      "voornaam": "Margina Josina",
-      "leeftijd": 40,
-      "geboortedatum": "7 jun 1899",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "17 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I641399&tree=voorouders"
-    },
-    {
-      "achternaam": "Walkier",
-      "voornaam": "Thona",
-      "leeftijd": 75,
-      "geboortedatum": "11 jun 1864",
-      "geboorteplaats": "Burgh",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Dienstbode",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I374387&tree=voorouders"
-    },
-    {
-      "achternaam": "Wegman",
-      "voornaam": "Pietertje",
-      "leeftijd": 84,
-      "geboortedatum": "17 dec 1855",
-      "geboorteplaats": "Ouderkerk aan den IJssel",
-      "overlijdensdatum": "20 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I557870&tree=voorouders"
-    },
-    {
-      "achternaam": "Wittenberg",
-      "voornaam": "Johannes",
-      "leeftijd": null,
-      "geboortedatum": "29 apr 1912",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "",
-      "overlijdensplaats": "",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1007212&tree=voorouders"
-    },
-    {
-      "achternaam": "Zimmer",
-      "voornaam": "Anne Marie",
-      "leeftijd": null,
-      "geboortedatum": "1 dec 1901",
-      "geboorteplaats": "Grotthau",
-      "overlijdensdatum": "",
-      "overlijdensplaats": "",
-      "beroep": "",
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I49378&tree=voorouders"
-    }
-  ]
+    "columns": [
+        {
+            "field": "achternaam",
+            "headerName": "Achternaam",
+            "minWidth": 150,
+            "sort": "asc",
+            "sortIndex": 0
+        },
+        {
+            "field": "voornaam",
+            "headerName": "Voornaam",
+            "minWidth": 180
+        },
+        {
+            "field": "leeftijd",
+            "headerName": "Leeftijd",
+            "minWidth": 100
+        },
+        {
+            "field": "geboortedatum",
+            "headerName": "Geboren",
+            "minWidth": 100
+        },
+        {
+            "field": "geboorteplaats",
+            "headerName": "Geboorteplaats",
+            "minWidth": 150
+        },
+        {
+            "field": "overlijdensdatum",
+            "headerName": "Overleden",
+            "minWidth": 100
+        },
+        {
+            "field": "overlijdensplaats",
+            "headerName": "Overlijdensplaats",
+            "minWidth": 150
+        },
+        {
+            "field": "beroep",
+            "headerName": "Beroep",
+            "minWidth": 130
+        }
+    ],
+    "rows": [
+        {
+            "achternaam": "Akkermans",
+            "voornaam": "Teuna Adriana",
+            "leeftijd": 25,
+            "geboortedatum": "7 feb 1915",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "22 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I198726&tree=voorouders"
+        },
+        {
+            "achternaam": "Bood",
+            "voornaam": "Jetje",
+            "leeftijd": 56,
+            "geboortedatum": "29 okt 1883",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I696336&tree=voorouders"
+        },
+        {
+            "achternaam": "Boon",
+            "voornaam": "Arnoldus",
+            "leeftijd": 47,
+            "geboortedatum": "18 jan 1893",
+            "geboorteplaats": "Maurik",
+            "overlijdensdatum": "19 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I199057&tree=voorouders"
+        },
+        {
+            "achternaam": "Bourguignon",
+            "voornaam": "Petrus",
+            "leeftijd": 50,
+            "geboortedatum": "20 mei 1889",
+            "geboorteplaats": "Kralingen",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "'s-Gravenhage",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I290259&tree=voorouders"
+        },
+        {
+            "achternaam": "Büller",
+            "voornaam": "Jacob Johannes",
+            "leeftijd": 90,
+            "geboortedatum": "26 sep 1849",
+            "geboorteplaats": "Giessendam",
+            "overlijdensdatum": "10 jun 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Schilder",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I358556&tree=voorouders"
+        },
+        {
+            "achternaam": "Cismondi",
+            "voornaam": "Eduarda",
+            "leeftijd": 52,
+            "geboortedatum": "18 jan 1888",
+            "geboorteplaats": "Cuneo",
+            "overlijdensdatum": "16 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Directeur",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I352121&tree=voorouders"
+        },
+        {
+            "achternaam": "Craanen",
+            "voornaam": "Lucia",
+            "leeftijd": 60,
+            "geboortedatum": "20 aug 1879",
+            "geboorteplaats": "Arnhem",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Dienstbode",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I571564&tree=voorouders"
+        },
+        {
+            "achternaam": "de Groot",
+            "voornaam": "Anna Maria",
+            "leeftijd": 78,
+            "geboortedatum": "6 mrt 1862",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "11 jun 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I359749&tree=voorouders"
+        },
+        {
+            "achternaam": "de Wit",
+            "voornaam": "Johannis",
+            "leeftijd": 77,
+            "geboortedatum": "21 mrt 1863",
+            "geboorteplaats": "Dinteloord",
+            "overlijdensdatum": "16 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Wagenmaker",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I350069&tree=voorouders"
+        },
+        {
+            "achternaam": "Hemelaar",
+            "voornaam": "Gerrit",
+            "leeftijd": 23,
+            "geboortedatum": "11 sep 1916",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "25 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Broodbakker",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I200297&tree=voorouders"
+        },
+        {
+            "achternaam": "Hoppenbrouwer",
+            "voornaam": "Maria Catharina Helena",
+            "leeftijd": 82,
+            "geboortedatum": "27 nov 1858",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "1 jan 1941",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I429874&tree=voorouders"
+        },
+        {
+            "achternaam": "Hoppezak",
+            "voornaam": "Martinus Adrianus",
+            "leeftijd": 61,
+            "geboortedatum": "6 jun 1878",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "16 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Warmoezier",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I61749&tree=voorouders"
+        },
+        {
+            "achternaam": "Kok",
+            "voornaam": "Johannes",
+            "leeftijd": 39,
+            "geboortedatum": "1 mrt 1901",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "28 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Broodbakker",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I556160&tree=voorouders"
+        },
+        {
+            "achternaam": "Langerak",
+            "voornaam": "Bertus",
+            "leeftijd": 30,
+            "geboortedatum": "3 jun 1909",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Broodbakker",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I675910&tree=voorouders"
+        },
+        {
+            "achternaam": "Oelsner",
+            "voornaam": "Marie Ulrike",
+            "leeftijd": 51,
+            "geboortedatum": "14 sep 1888",
+            "geboorteplaats": "Amsterdam",
+            "overlijdensdatum": "23 jun 1940",
+            "overlijdensplaats": "Amsterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I350821&tree=voorouders"
+        },
+        {
+            "achternaam": "Peters",
+            "voornaam": "Johannes",
+            "leeftijd": 59,
+            "geboortedatum": "5 apr 1881",
+            "geboorteplaats": "Arnhem",
+            "overlijdensdatum": "27 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Barbier",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I385742&tree=voorouders"
+        },
+        {
+            "achternaam": "Schmolka",
+            "voornaam": "Erich",
+            "leeftijd": null,
+            "geboortedatum": "10 mei 1921",
+            "geboorteplaats": "Wien",
+            "overlijdensdatum": "",
+            "overlijdensplaats": "",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I240576&tree=voorouders"
+        },
+        {
+            "achternaam": "Slegtenhorst",
+            "voornaam": "Cornelis",
+            "leeftijd": 26,
+            "geboortedatum": "23 feb 1914",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "22 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Bankwerker",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I462184&tree=voorouders"
+        },
+        {
+            "achternaam": "Smit",
+            "voornaam": "Toontje Johanna",
+            "leeftijd": 76,
+            "geboortedatum": "21 jan 1864",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "6 jun 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Werkster",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I325876&tree=voorouders"
+        },
+        {
+            "achternaam": "Steevens",
+            "voornaam": "Elizabeth",
+            "leeftijd": 57,
+            "geboortedatum": "23 mei 1883",
+            "geboorteplaats": "Zaltbommel",
+            "overlijdensdatum": "27 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Werkster",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I470952&tree=voorouders"
+        },
+        {
+            "achternaam": "van Bokkem",
+            "voornaam": "Arij",
+            "leeftijd": 78,
+            "geboortedatum": "19 feb 1862",
+            "geboorteplaats": "Poortugaal",
+            "overlijdensdatum": "18 jun 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Schipper",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I644851&tree=voorouders"
+        },
+        {
+            "achternaam": "van Dam",
+            "voornaam": "Jansje",
+            "leeftijd": 35,
+            "geboortedatum": "30 aug 1904",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I542730&tree=voorouders"
+        },
+        {
+            "achternaam": "van Dijk",
+            "voornaam": "Geert",
+            "leeftijd": 2,
+            "geboortedatum": "20 aug 1937",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "26 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I205522&tree=voorouders"
+        },
+        {
+            "achternaam": "van Zon",
+            "voornaam": "Susanna",
+            "leeftijd": 21,
+            "geboortedatum": "2 jan 1919",
+            "geboorteplaats": "Schiedam",
+            "overlijdensdatum": "20 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Dienstbode",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I534382&tree=voorouders"
+        },
+        {
+            "achternaam": "Verhagen",
+            "voornaam": "Jan",
+            "leeftijd": 64,
+            "geboortedatum": "21 feb 1876",
+            "geboorteplaats": "Pernis",
+            "overlijdensdatum": "4 sep 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Metselaar",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I524664&tree=voorouders"
+        },
+        {
+            "achternaam": "Verhoeven",
+            "voornaam": "Simon Huibert",
+            "leeftijd": null,
+            "geboortedatum": "ca. 1933",
+            "geboorteplaats": "Mijnsheerenland",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I186903&tree=voorouders"
+        },
+        {
+            "achternaam": "Volders",
+            "voornaam": "Johanna Helena Maria",
+            "leeftijd": 52,
+            "geboortedatum": "8 sep 1887",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "25 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Huisbewaarster",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I771134&tree=voorouders"
+        },
+        {
+            "achternaam": "Vos",
+            "voornaam": "Hendrik Johannes",
+            "leeftijd": 52,
+            "geboortedatum": "6 okt 1887",
+            "geboorteplaats": "Gent",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Schipper",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I2812&tree=voorouders"
+        },
+        {
+            "achternaam": "Vrekke",
+            "voornaam": "Margina Josina",
+            "leeftijd": 40,
+            "geboortedatum": "7 jun 1899",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "17 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I641399&tree=voorouders"
+        },
+        {
+            "achternaam": "Walkier",
+            "voornaam": "Thona",
+            "leeftijd": 75,
+            "geboortedatum": "11 jun 1864",
+            "geboorteplaats": "Burgh",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Dienstbode",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I374387&tree=voorouders"
+        },
+        {
+            "achternaam": "Wegman",
+            "voornaam": "Pietertje",
+            "leeftijd": 84,
+            "geboortedatum": "17 dec 1855",
+            "geboorteplaats": "Ouderkerk aan den IJssel",
+            "overlijdensdatum": "20 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I557870&tree=voorouders"
+        },
+        {
+            "achternaam": "Wittenberg",
+            "voornaam": "Johannes",
+            "leeftijd": null,
+            "geboortedatum": "29 apr 1912",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "",
+            "overlijdensplaats": "",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1007212&tree=voorouders"
+        },
+        {
+            "achternaam": "Zimmer",
+            "voornaam": "Anne Marie",
+            "leeftijd": null,
+            "geboortedatum": "1 dec 1901",
+            "geboorteplaats": "Grotthau",
+            "overlijdensdatum": "",
+            "overlijdensplaats": "",
+            "beroep": "",
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I49378&tree=voorouders"
+        }
+    ]
 }

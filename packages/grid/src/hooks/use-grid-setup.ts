@@ -1,41 +1,28 @@
 // packages/grid/src/hooks/use-grid-setup.ts
-import { useMemo } from 'react';
-import { GridApi } from 'ag-grid-community';
+import {useMemo} from 'react';
 
-import { createGridOptions } from './../grid-options';
-import { getLocaleText } from './../grid-settings';
-import { useGridStateManager } from './../grid-state-manager';
+// GridApi import verwijderd want niet meer nodig hier
+// import {GridApi} from 'ag-grid-community';
+
+import {createGridOptions} from './../grid-options';
+import {getLocaleText} from './../grid-settings';
+import {useGridStateManager} from './../grid-state-manager';
 
 interface UseGridSetupParams {
   gridId: string;
   locale: string;
   t: (key: string) => string;
-  serverSide?: boolean;
-  isEnterprise?: boolean; // Nieuwe prop
 }
 
-export const useGridSetup = ({
-  gridId,
-  locale,
-  t,
-  serverSide = false,
-  isEnterprise = false, // Default false
-}: UseGridSetupParams) => {
-  const { handleStateUpdate, restoreState, resetState } = useGridStateManager({
+export const useGridSetup = ({gridId, locale, t}: UseGridSetupParams) => {
+  const {handleStateUpdate, restoreState, resetState} = useGridStateManager({
     gridId,
     t,
-    serverSide,
   });
 
   const gridOptions = useMemo(
-    () =>
-      createGridOptions({
-        t,
-        resetState: (api: GridApi) => resetState(api),
-        isServerSide: serverSide,
-        isEnterprise, // Geef door
-      }),
-    [t, resetState, serverSide, isEnterprise],
+    () => createGridOptions(), // Geen parameters meer doorgeven
+    [], // Geen dependencies meer nodig voor createGridOptions
   );
 
   const localeText = useMemo(() => getLocaleText(locale), [locale]);

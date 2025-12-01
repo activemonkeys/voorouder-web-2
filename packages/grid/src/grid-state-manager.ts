@@ -4,7 +4,6 @@ import {GridStateConfig, useGridState} from './grid-state';
 interface GridStateManagerConfig extends GridStateConfig {
   gridId: string;
   t: (key: string) => string;
-  serverSide?: boolean;
 }
 
 export const useGridStateManager = ({
@@ -20,7 +19,6 @@ export const useGridStateManager = ({
       saveSorting: true,
       saveColumns: true,
       savePagination: true,
-      serverSide: false,
       ...config,
     },
   );

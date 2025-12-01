@@ -1,11 +1,11 @@
 // packages/grid/src/grid-state.ts
-import {ColumnState, GridApi} from 'ag-grid-enterprise';
+// Imports aangepast naar community
+import {ColumnState, GridApi} from 'ag-grid-community';
 import {toast} from 'sonner';
 
 import {error as logError} from './lib/logger';
 import {ErrorMessage} from './types/core';
 
-// VERSIEBEHEER: Verhoog dit nummer als de grid structuur breekt (breaking changes)
 const GRID_STATE_VERSION = 1;
 
 interface GridState {
@@ -22,7 +22,6 @@ export interface GridStateConfig {
   saveSorting?: boolean;
   saveColumns?: boolean;
   savePagination?: boolean;
-  serverSide?: boolean;
   cacheDurationHours?: number;
 }
 
@@ -31,7 +30,6 @@ const defaultConfig: Required<GridStateConfig> = {
   saveSorting: true,
   saveColumns: true,
   savePagination: true,
-  serverSide: false,
   cacheDurationHours: 24,
 };
 
@@ -99,10 +97,6 @@ export const useGridState = (
         api.setGridOption('paginationPageSize', defaultState.pageSize);
       }
 
-      if (config.serverSide) {
-        api.onFilterChanged();
-      }
-
       toast.info(t(ErrorMessage.GridStateResetSuccess.toString()));
     } catch (error) {
       logError('Error resetting grid state', LOG_SOURCE, {gridId, error});
@@ -111,15 +105,8 @@ export const useGridState = (
   };
 
   const isStateValid = (state: GridState): boolean => {
-    // Check versie compatibiliteit
-    if (state.version !== GRID_STATE_VERSION) {
-      return false;
-    }
-
-    if (!state.timestamp) {
-      return false; // Altijd false als er geen timestamp is
-    }
-
+    if (state.version !== GRID_STATE_VERSION) return false;
+    if (!state.timestamp) return false;
     const maxAge = config.cacheDurationHours * 60 * 60 * 1000;
     return Date.now() - state.timestamp <= maxAge;
   };
@@ -160,16 +147,10 @@ export const useGridState = (
       if (config.savePagination && state.pageSize) {
         api.setGridOption('paginationPageSize', state.pageSize);
       }
-
       if (state.filterModel && config.saveFilters) {
-        if (config.serverSide) {
-          // In SSRM, we just prepare the model. The datasource will use it on first load.
-        } else {
-          api.setFilterModel(state.filterModel);
-        }
+        api.setFilterModel(state.filterModel);
       }
-
-      if (!config.serverSide && config.savePagination) {
+      if (config.savePagination) {
         api.paginationGoToPage(state.page ?? defaultState.page);
       }
     } catch (e) {

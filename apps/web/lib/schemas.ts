@@ -1,5 +1,5 @@
 // apps/web/lib/schemas.ts
-import { z } from 'zod';
+import {z} from 'zod';
 
 // --- Content Schemas ---
 
@@ -77,18 +77,20 @@ export const AlbumConfigSchema = z.object({
 
 // --- Dataset Schemas ---
 
-export const DatasetColumnSchema = z.object({
-  field: z.string(),
-  headerName: z.string(),
-  // AANGEPAST: minWidth is nu optioneel
-  minWidth: z.number().optional(),
-  sort: z.string().optional(),
-  sortIndex: z.number().optional(),
-}).passthrough();
+export const DatasetColumnSchema = z
+  .object({
+    field: z.string(),
+    headerName: z.string(),
+    // AANGEPAST: minWidth is nu optioneel
+    minWidth: z.number().optional(),
+    sort: z.string().optional(),
+    sortIndex: z.number().optional(),
+  })
+  .passthrough();
 
 export const DatasetRowSchema = z.record(
   z.string(),
-  z.union([z.string(), z.number(), z.null(), z.boolean()]).optional()
+  z.union([z.string(), z.number(), z.null(), z.boolean()]).optional(),
 );
 
 export const DatasetFileSchema = z.object({

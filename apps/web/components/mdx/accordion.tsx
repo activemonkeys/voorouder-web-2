@@ -1,3 +1,4 @@
+// apps/web/components/mdx/accordion.tsx
 import {
   AccordionContent,
   AccordionItem,

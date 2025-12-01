@@ -22,23 +22,23 @@ interface DataTableProps {
   paginationPageSize?: number;
   filter?: boolean;
   enableSearch?: boolean;
+  domLayout?: 'normal' | 'autoHeight' | 'print';
 }
 
 export function DataTable({
   data = [],
   columns = [],
-  // height prop is verwijderd uit default omdat je domLayout="autoHeight" gebruikt,
-  // maar we houden hem optioneel voor backwards compatibility
   height,
   pagination = true,
   paginationPageSize = 10,
   enableSearch = true,
+  domLayout = 'normal',
 }: DataTableProps) {
   const {resolvedTheme} = useTheme();
 
-  // Hydration fix: We renderen pas het thema attribuut als we mounted zijn
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 
@@ -46,7 +46,7 @@ export function DataTable({
     ? resolvedTheme === 'dark'
       ? 'dark'
       : 'light'
-    : undefined; // undefined zorgt dat server en client initieel matchen (geen attribuut)
+    : undefined;
 
   const [quickFilterText, setQuickFilterText] = useState('');
 
@@ -54,9 +54,6 @@ export function DataTable({
     gridId: 'mdx-data-table',
     locale: 'nl',
     t: (key: string) => key,
-    // Belangrijk: We geven nu expliciet aan dat dit GEEN enterprise grid is
-    // Dit zorgt ervoor dat createGridOptions (die we zo gaan aanpassen) geen enterprise props injecteert
-    serverSide: false,
   });
 
   const columnDefs = useMemo<ColDef[]>(() => {
@@ -103,8 +100,11 @@ export function DataTable({
     );
   }
 
+  const containerStyle =
+    domLayout === 'autoHeight' ? undefined : {height: height || 500};
+
   return (
-    <div className="not-prose flex w-full flex-col gap-4">
+    <div className="not-prose flex w-full min-w-0 flex-col gap-4">
       {enableSearch && (
         <div className="flex w-full max-w-sm items-center space-x-2">
           <div className="relative w-full">
@@ -119,12 +119,10 @@ export function DataTable({
         </div>
       )}
 
-      {/* Grid Wrapper */}
       <div
-        className="w-full"
+        className="w-full min-w-0"
         data-ag-theme-mode={effectiveThemeMode}
-        // Als height expliciet is meegegeven, gebruik die, anders autoHeight container stijl
-        style={height ? {height} : undefined}
+        style={containerStyle}
       >
         <AgGridReact
           theme={theme}
@@ -137,7 +135,7 @@ export function DataTable({
           localeText={localeText}
           quickFilterText={quickFilterText}
           rowSelection={undefined}
-          domLayout="autoHeight"
+          domLayout={domLayout}
         />
       </div>
     </div>

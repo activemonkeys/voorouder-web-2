@@ -1,5 +1,5 @@
+// apps/web/components/mdx/tabs.tsx
 import * as React from 'react';
-import {cn} from '@/lib/utils';
 
 import {
   TabsContent,
@@ -7,6 +7,7 @@ import {
   TabsTrigger,
   Tabs as UITabs,
 } from '@workspace/ui/components/shadcn/tabs';
+import {cn} from '@workspace/ui/lib/utils';
 import CustomMDX from './index';
 
 interface Tab {

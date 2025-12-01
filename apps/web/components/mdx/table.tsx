@@ -1,5 +1,4 @@
-import {cn} from '@/lib/utils';
-
+// apps/web/components/mdx/table.tsx
 import {
   TableBody,
   TableCell,
@@ -8,6 +7,7 @@ import {
   TableRow,
   Table as UITable,
 } from '@workspace/ui/components/shadcn/table';
+import {cn} from '@workspace/ui/lib/utils';
 
 interface ColumnConfig {
   header: string;

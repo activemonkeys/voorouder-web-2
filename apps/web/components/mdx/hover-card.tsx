@@ -1,10 +1,10 @@
-import {cn} from '@/lib/utils';
-
+// apps/web/components/mdx/hover-card.tsx
 import {
   HoverCardContent,
   HoverCardTrigger,
   HoverCard as UIHoverCard,
 } from '@workspace/ui/components/shadcn/hover-card';
+import {cn} from '@workspace/ui/lib/utils';
 
 interface HoverCardProps {
   trigger: React.ReactNode;

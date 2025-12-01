@@ -1,6 +1,6 @@
-import {cn} from '@/lib/utils';
-
+// apps/web/components/mdx/quote.tsx
 import {Card, CardContent} from '@workspace/ui/components/shadcn/card';
+import {cn} from '@workspace/ui/lib/utils';
 
 interface QuoteProps {
   author?: string;

@@ -13,7 +13,7 @@ interface MdxDataTableProps {
 export async function MdxDataTable({
   tableName,
   pageSize = 10,
-  height = 600,
+  height,
 }: MdxDataTableProps) {
   const dataset = await loadDataFile(tableName);
 
@@ -32,7 +32,6 @@ export async function MdxDataTable({
   const columns = dataset.columns.map((col) => ({
     field: col.field,
     headerName: col.headerName,
-    // Fallback naar 150px als minWidth ontbreekt in de JSON
     width: col.minWidth || 150,
   }));
 
@@ -43,6 +42,7 @@ export async function MdxDataTable({
         columns={columns}
         pagination={true}
         paginationPageSize={pageSize}
+        domLayout="autoHeight"
         height={height}
       />
     </div>

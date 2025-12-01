@@ -1,3 +1,4 @@
+// apps/web/components/mdx/badge.tsx
 import {Badge as UIBadge} from '@workspace/ui/components/shadcn/badge';
 
 interface BadgeProps {

@@ -1,4 +1,5 @@
-import {cn} from '@/lib/utils';
+// apps/web/components/mdx/note.tsx
+import {cn} from '@workspace/ui/lib/utils';
 
 interface NoteProps {
   children: React.ReactNode;

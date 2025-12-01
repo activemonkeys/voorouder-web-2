@@ -1,3 +1,4 @@
+// apps/web/components/mdx/collapsible.tsx
 import {ChevronDown} from 'lucide-react';
 
 import {

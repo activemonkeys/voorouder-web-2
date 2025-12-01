@@ -1,6 +1,8 @@
+// apps/web/components/mdx/pre.tsx
 import React, {Children} from 'react';
-import {cn} from '@/lib/utils';
 import {codeToHtml} from 'shiki';
+
+import {cn} from '@workspace/ui/lib/utils';
 
 export async function Pre({
   children,

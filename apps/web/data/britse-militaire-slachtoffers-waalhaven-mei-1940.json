@@ -1,127 +1,127 @@
 {
-  "columns": [
-    {
-      "field": "achternaam",
-      "headerName": "Achternaam",
-      "minWidth": 180,
-      "sort": "asc",
-      "sortIndex": 0
-    },
-    {
-      "field": "voornaam",
-      "headerName": "Voornaam",
-      "minWidth": 180
-    },
-    {
-      "field": "geboortedatum",
-      "headerName": "Geboren",
-      "minWidth": 100
-    },
-    {
-      "field": "overlijdensdatum",
-      "headerName": "Overleden",
-      "minWidth": 100
-    },
-    {
-      "field": "overlijdensplaats",
-      "headerName": "Overlijdensplaats",
-      "minWidth": 150
-    },
-    {
-      "field": "begraven",
-      "headerName": "Begraven",
-      "minWidth": 150
-    },
-    {
-      "field": "rang",
-      "headerName": "Rang",
-      "minWidth": 240
-    }
-  ],
-  "rows": [
-    {
-      "achternaam": "Anderson",
-      "voornaam": "Michael Herbert",
-      "geboortedatum": "ca. 1917",
-      "geboorteplaats": null,
-      "overlijdensdatum": "10 mei 1940",
-      "overlijdensplaats": "Hoogvliet",
-      "rang": "Pilot",
-      "link": null,
-      "opmerking": "600e Squadron",
-      "begraven": "Spijkenisse"
-    },
-    {
-      "achternaam": "Echlin",
-      "voornaam": "Robert Wyatt Hamilton",
-      "geboortedatum": "ca. 1904",
-      "geboorteplaats": null,
-      "overlijdensdatum": "10 mei 1940",
-      "overlijdensplaats": "Piershil",
-      "rang": "Air Gunner",
-      "link": null,
-      "opmerking": "600e Squadron",
-      "begraven": "Piershil"
-    },
-    {
-      "achternaam": "Hawkins",
-      "voornaam": "Herbert Charles William",
-      "geboortedatum": null,
-      "geboorteplaats": null,
-      "overlijdensdatum": "10 mei 1940",
-      "overlijdensplaats": "Hoogvliet",
-      "rang": "Air Gunner",
-      "link": null,
-      "opmerking": "600e Squadron",
-      "begraven": "Spijkenisse"
-    },
-    {
-      "achternaam": "Isaacs",
-      "voornaam": "Laurence David",
-      "geboortedatum": "ca. 1920",
-      "geboorteplaats": null,
-      "overlijdensdatum": "10 mei 1940",
-      "overlijdensplaats": "Waalhaven",
-      "rang": null,
-      "link": null,
-      "opmerking": "600e Squadron",
-      "begraven": "Rotterdam"
-    },
-    {
-      "achternaam": "Kidd",
-      "voornaam": "Basel Arthur",
-      "geboortedatum": "ca. 1910",
-      "geboorteplaats": null,
-      "overlijdensdatum": "10 mei 1940",
-      "overlijdensplaats": "Pernis",
-      "rang": "Air Gunner",
-      "link": null,
-      "opmerking": "600e Squadron",
-      "begraven": "Rotterdam"
-    },
-    {
-      "achternaam": "Moore",
-      "voornaam": "Charles Roger",
-      "geboortedatum": "6 mei 1910",
-      "geboorteplaats": null,
-      "overlijdensdatum": "10 mei 1940",
-      "overlijdensplaats": "Waalhaven",
-      "rang": "Pilot",
-      "link": null,
-      "opmerking": "600e Squadron",
-      "begraven": "Rotterdam"
-    },
-    {
-      "achternaam": "Wells",
-      "voornaam": "James Michael",
-      "geboortedatum": "ca. 1909",
-      "geboorteplaats": null,
-      "overlijdensdatum": "10 mei 1940",
-      "overlijdensplaats": "Pernis",
-      "rang": "Commanding officer",
-      "link": null,
-      "opmerking": "600e Squadron",
-      "begraven": "Rotterdam"
-    }
-  ]
+    "columns": [
+        {
+            "field": "achternaam",
+            "headerName": "Achternaam",
+            "minWidth": 180,
+            "sort": "asc",
+            "sortIndex": 0
+        },
+        {
+            "field": "voornaam",
+            "headerName": "Voornaam",
+            "minWidth": 180
+        },
+        {
+            "field": "geboortedatum",
+            "headerName": "Geboren",
+            "minWidth": 100
+        },
+        {
+            "field": "overlijdensdatum",
+            "headerName": "Overleden",
+            "minWidth": 100
+        },
+        {
+            "field": "overlijdensplaats",
+            "headerName": "Overlijdensplaats",
+            "minWidth": 150
+        },
+        {
+            "field": "begraven",
+            "headerName": "Begraven",
+            "minWidth": 150
+        },
+        {
+            "field": "rang",
+            "headerName": "Rang",
+            "minWidth": 240
+        }
+    ],
+    "rows": [
+        {
+            "achternaam": "Anderson",
+            "voornaam": "Michael Herbert",
+            "geboortedatum": "ca. 1917",
+            "geboorteplaats": null,
+            "overlijdensdatum": "10 mei 1940",
+            "overlijdensplaats": "Hoogvliet",
+            "rang": "Pilot",
+            "link": null,
+            "opmerking": "600e Squadron",
+            "begraven": "Spijkenisse"
+        },
+        {
+            "achternaam": "Echlin",
+            "voornaam": "Robert Wyatt Hamilton",
+            "geboortedatum": "ca. 1904",
+            "geboorteplaats": null,
+            "overlijdensdatum": "10 mei 1940",
+            "overlijdensplaats": "Piershil",
+            "rang": "Air Gunner",
+            "link": null,
+            "opmerking": "600e Squadron",
+            "begraven": "Piershil"
+        },
+        {
+            "achternaam": "Hawkins",
+            "voornaam": "Herbert Charles William",
+            "geboortedatum": null,
+            "geboorteplaats": null,
+            "overlijdensdatum": "10 mei 1940",
+            "overlijdensplaats": "Hoogvliet",
+            "rang": "Air Gunner",
+            "link": null,
+            "opmerking": "600e Squadron",
+            "begraven": "Spijkenisse"
+        },
+        {
+            "achternaam": "Isaacs",
+            "voornaam": "Laurence David",
+            "geboortedatum": "ca. 1920",
+            "geboorteplaats": null,
+            "overlijdensdatum": "10 mei 1940",
+            "overlijdensplaats": "Waalhaven",
+            "rang": null,
+            "link": null,
+            "opmerking": "600e Squadron",
+            "begraven": "Rotterdam"
+        },
+        {
+            "achternaam": "Kidd",
+            "voornaam": "Basel Arthur",
+            "geboortedatum": "ca. 1910",
+            "geboorteplaats": null,
+            "overlijdensdatum": "10 mei 1940",
+            "overlijdensplaats": "Pernis",
+            "rang": "Air Gunner",
+            "link": null,
+            "opmerking": "600e Squadron",
+            "begraven": "Rotterdam"
+        },
+        {
+            "achternaam": "Moore",
+            "voornaam": "Charles Roger",
+            "geboortedatum": "6 mei 1910",
+            "geboorteplaats": null,
+            "overlijdensdatum": "10 mei 1940",
+            "overlijdensplaats": "Waalhaven",
+            "rang": "Pilot",
+            "link": null,
+            "opmerking": "600e Squadron",
+            "begraven": "Rotterdam"
+        },
+        {
+            "achternaam": "Wells",
+            "voornaam": "James Michael",
+            "geboortedatum": "ca. 1909",
+            "geboorteplaats": null,
+            "overlijdensdatum": "10 mei 1940",
+            "overlijdensplaats": "Pernis",
+            "rang": "Commanding officer",
+            "link": null,
+            "opmerking": "600e Squadron",
+            "begraven": "Rotterdam"
+        }
+    ]
 }

@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@source "../**/*.{ts,tsx}";
+@source '../**/*.{ts,tsx}';
 
 @import 'tw-animate-css';
 
@@ -54,11 +54,11 @@
   * {
     @apply border-border outline-ring/50;
   }
-  
+
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-sans);
-  }  
+  }
   a:hover {
     /* color: rgb(from var(--color-foreground) r g b / 0.8) !important; */
     text-decoration: none !important;
@@ -72,8 +72,6 @@
   box-shadow: none !important;
 }
 
-
-
 /* To Customize general scrollbar e.g. Rate Table */
 ::-webkit-scrollbar {
   width: 8px; /* For vertical scrollbars */
@@ -84,14 +82,6 @@
 html {
   scrollbar-width: thin; /* "auto", "thin", "none" */
 }
-
-
-
-
-
-
-
-
 
 nextjs-portal {
   display: none;

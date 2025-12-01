@@ -1,510 +1,510 @@
 {
-  "columns": [
-    {
-      "field": "achternaam",
-      "headerName": "Achternaam",
-      "minWidth": 150,
-      "sort": "asc",
-      "sortIndex": 0
-    },
-    {
-      "field": "voornaam",
-      "headerName": "Voornaam",
-      "minWidth": 150
-    },
-    {
-      "field": "geboortedatum",
-      "headerName": "Geboren",
-      "minWidth": 120
-    },
-    {
-      "field": "geboorteplaats",
-      "headerName": "Geboorteplaats",
-      "minWidth": 150
-    },
-    {
-      "field": "overlijdensdatum",
-      "headerName": "Overleden",
-      "minWidth": 120
-    },
-    {
-      "field": "overlijdensplaats",
-      "headerName": "Overlijdensplaats",
-      "minWidth": 150
-    },
-    {
-      "field": "beroep",
-      "headerName": "Beroep",
-      "minWidth": 180
-    },
-    {
-      "field": "opmerking",
-      "headerName": "Opmerking",
-      "minWidth": 200
-    }
-  ],
-  "rows": [
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I484426&tree=voorouders",
-      "achternaam": "Aalhuizen",
-      "voornaam": "Jan Frederik",
-      "geboortedatum": "18 mrt 1902",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Machinebankwerker",
-      "opmerking": "Gevangene A 37-4276"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577267&tree=voorouders",
-      "achternaam": "Bos",
-      "voornaam": "Cornelis Johannes",
-      "geboortedatum": "9 mei 1900",
-      "geboorteplaats": "Delft",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Zeeman",
-      "opmerking": "Gevangene A 67-4461"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1470&tree=voorouders",
-      "achternaam": "Bosman",
-      "voornaam": "Johannes Theodorus",
-      "geboortedatum": "27 jul 1898",
-      "geboorteplaats": "Amsterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Uitgever",
-      "opmerking": "Gevangene A 68-4478"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I184511&tree=voorouders",
-      "achternaam": "Buitenhuis",
-      "voornaam": "Hendrikus Antonius",
-      "geboortedatum": "12 okt 1914",
-      "geboorteplaats": "Rhenen",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Landarbeider",
-      "opmerking": "Gevangene A 72-4250"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I456675&tree=voorouders",
-      "achternaam": "Campo",
-      "voornaam": "Joseph Pierre",
-      "geboortedatum": "27 nov 1893",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Koopman",
-      "opmerking": "Gevangene A 4-2750"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I648816&tree=voorouders",
-      "achternaam": "de Bruin",
-      "voornaam": "Joost",
-      "geboortedatum": "24 dec 1900",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Koperslager",
-      "opmerking": "Gevangene A 82-4499"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1509191&tree=voorouders",
-      "achternaam": "Declemij",
-      "voornaam": "Mathieu",
-      "geboortedatum": "12 apr 1891",
-      "geboorteplaats": "'s-Gravenhage",
-      "overlijdensdatum": "21 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Beambte Strafgevangenis",
-      "opmerking": "Medewerker"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I644544&tree=voorouders",
-      "achternaam": "Diepenhorst",
-      "voornaam": "Pieter",
-      "geboortedatum": "6 sep 1907",
-      "geboorteplaats": "Stad aan 't Haringvliet",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Schipper",
-      "opmerking": "Gevangene A 44-3305"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I296021&tree=voorouders",
-      "achternaam": "Erkelens",
-      "voornaam": "Leendert Adrianus",
-      "geboortedatum": "25 aug 1909",
-      "geboorteplaats": "Hillegersberg",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Schoenmaker",
-      "opmerking": "Gevangene A 39-4416"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I644209&tree=voorouders",
-      "achternaam": "Gomes",
-      "voornaam": "Gerrit",
-      "geboortedatum": "31 dec 1913",
-      "geboorteplaats": "Amsterdam",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Los werkman",
-      "opmerking": "Gevangene A 84-4004"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I307911&tree=voorouders",
-      "achternaam": "Hokke",
-      "voornaam": "Gerrit",
-      "geboortedatum": "24 feb 1889",
-      "geboorteplaats": "Zuidland",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Los werkman",
-      "opmerking": "Gevangene A 36-4185"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I190451&tree=voorouders",
-      "achternaam": "Houtman",
-      "voornaam": "Alexander",
-      "geboortedatum": "6 jun 1904",
-      "geboorteplaats": "Zwolle",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Timmerman",
-      "opmerking": "Gevangene Gem-4329"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I647037&tree=voorouders",
-      "achternaam": "Kloek",
-      "voornaam": "Adriaan",
-      "geboortedatum": "14 nov 1880",
-      "geboorteplaats": "Hoorn",
-      "overlijdensdatum": "21 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Schrijver",
-      "opmerking": "Gevangene A 12-3682"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I553019&tree=voorouders",
-      "achternaam": "Lanooij",
-      "voornaam": "Adrianus Johannes",
-      "geboortedatum": "12 feb 1885",
-      "geboorteplaats": "Moordrecht",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Koetsier",
-      "opmerking": "Gevangene A 3-3999"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577191&tree=voorouders",
-      "achternaam": "Leferink",
-      "voornaam": "Gerhard Anton",
-      "geboortedatum": "1 apr 1900",
-      "geboorteplaats": "Ochtrup, DEU",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Arbeider",
-      "opmerking": "Gevangene A 40-3341"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1352873&tree=voorouders",
-      "achternaam": "Minderman",
-      "voornaam": "Antonius Wilhelmus Johannes",
-      "geboortedatum": "16 okt 1902",
-      "geboorteplaats": "'s-Gravenhage",
-      "overlijdensdatum": "16 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Bookmaker",
-      "opmerking": "Gevangene A 7-4198"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I184991&tree=voorouders",
-      "achternaam": "Morroy",
-      "voornaam": "Rudolph Samuel",
-      "geboortedatum": "16 jun 1897",
-      "geboorteplaats": "Paramaribo, SUR",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Opticien",
-      "opmerking": "Gevangene A 9-4361"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1003129&tree=voorouders",
-      "achternaam": "Nowee",
-      "voornaam": "Petrus Franciscus Augustinus",
-      "geboortedatum": "9 sep 1909",
-      "geboorteplaats": "Dordrecht",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Matroos",
-      "opmerking": "Gevangene A 70-4086"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577274&tree=voorouders",
-      "achternaam": "Nunnikhoven",
-      "voornaam": "Johannes Antonius Reinier",
-      "geboortedatum": "31 dec 1902",
-      "geboorteplaats": "Gorinchem",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Bloemist",
-      "opmerking": "Gevangene A 10-4180"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I642980&tree=voorouders",
-      "achternaam": "Perfors",
-      "voornaam": "Hermanus Hendrik",
-      "geboortedatum": "13 jan 1899",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Machinebankwerker",
-      "opmerking": "Gevangene A 38-1974"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I185038&tree=voorouders",
-      "achternaam": "Schleberger",
-      "voornaam": "Max",
-      "geboortedatum": "28 sep 1910",
-      "geboorteplaats": "Amsterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Handelsreiziger",
-      "opmerking": "Gevangene A 33-4449"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I441211&tree=voorouders",
-      "achternaam": "Sinte Maartensdijk",
-      "voornaam": "Dammis",
-      "geboortedatum": "7 dec 1884",
-      "geboorteplaats": "Barendrecht",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Wegwerker",
-      "opmerking": "Gevangene A 15-4106"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1257982&tree=voorouders",
-      "achternaam": "Storm",
-      "voornaam": "Cornelis",
-      "geboortedatum": "17 nov 1911",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Timmerman",
-      "opmerking": "Gevangene A 53-4279"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I187703&tree=voorouders",
-      "achternaam": "Sweers",
-      "voornaam": "Hillegiena",
-      "geboortedatum": "21 mei 1876",
-      "geboorteplaats": "Haren",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "opmerking": "Vrouw van de huismeester"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577197&tree=voorouders",
-      "achternaam": "te Kolsté",
-      "voornaam": "Gerardus Christianus",
-      "geboortedatum": "22 dec 1879",
-      "geboorteplaats": "Utrecht",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Chauffeur",
-      "opmerking": "Gevangene A 34-4589"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1297076&tree=voorouders",
-      "achternaam": "Treuren",
-      "voornaam": "Cornelis",
-      "geboortedatum": "3 sep 1920",
-      "geboorteplaats": "Stolwijk",
-      "overlijdensdatum": "19 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Rietmattenmaker",
-      "opmerking": "Gevangene A 31-4462"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577452&tree=voorouders",
-      "achternaam": "Tuntler",
-      "voornaam": "Gerhard",
-      "geboortedatum": "2 okt 1889",
-      "geboorteplaats": "Groningen",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Scheepsbevrachter",
-      "opmerking": "Gevangene A 41-4222"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577185&tree=voorouders",
-      "achternaam": "van der Kuij",
-      "voornaam": "Pieter",
-      "geboortedatum": "25 jun 1915",
-      "geboorteplaats": "Oudewater",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Tekenaar",
-      "opmerking": "Gevangene A 69-4594"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1074848&tree=voorouders",
-      "achternaam": "van Driel de Vries",
-      "voornaam": "Cornelia",
-      "geboortedatum": "23 sep 1887",
-      "geboorteplaats": "Heinenoord",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "opmerking": "Vrouw van gevangenisbewaarder"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I185753&tree=voorouders",
-      "achternaam": "van Duin",
-      "voornaam": "Arie",
-      "geboortedatum": "10 jul 1917",
-      "geboorteplaats": "'s-Gravenhage",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Kantoorbediende",
-      "opmerking": "Gevangene A 11-4197"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I184417&tree=voorouders",
-      "achternaam": "van Herk",
-      "voornaam": "Rokus",
-      "geboortedatum": "30 aug 1903",
-      "geboorteplaats": "Moordrecht",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Tapijtwever",
-      "opmerking": "Gevangene A 62-3582"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577136&tree=voorouders",
-      "achternaam": "van Leur",
-      "voornaam": "Antonius",
-      "geboortedatum": "9 sep 1914",
-      "geboorteplaats": "Utrecht",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Los werkman",
-      "opmerking": "Gevangene A 65-4572"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I601075&tree=voorouders",
-      "achternaam": "van Liere",
-      "voornaam": "Pieter Cornelis Jacobus",
-      "geboortedatum": "16 nov 1898",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Broodbezorger",
-      "opmerking": "Gevangene A 81-3563"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1450802&tree=voorouders",
-      "achternaam": "van Meeuwen",
-      "voornaam": "Willem",
-      "geboortedatum": "5 dec 1915",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "15 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Lichtmatroos",
-      "opmerking": "Gevangene B 68-4498"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1278846&tree=voorouders",
-      "achternaam": "van Vliet",
-      "voornaam": "Annigje",
-      "geboortedatum": "4 feb 1922",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "opmerking": "Dochter van gevangenisbewaarder"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1094336&tree=voorouders",
-      "achternaam": "van Vliet",
-      "voornaam": "Aart",
-      "geboortedatum": "24 apr 1924",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "",
-      "opmerking": "Zoon van gevangenisbewaarder"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I485758&tree=voorouders",
-      "achternaam": "van Zijl",
-      "voornaam": "Pieter",
-      "geboortedatum": "21 feb 1901",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Loodgieter",
-      "opmerking": "Gevangene A 63-4519"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I190333&tree=voorouders",
-      "achternaam": "Waasdorp",
-      "voornaam": "Cornelis Jacobus",
-      "geboortedatum": "24 feb 1912",
-      "geboorteplaats": "'s-Gravenhage",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Fabrieksbarbeider",
-      "opmerking": "Gevangene A 64-4196"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I188255&tree=voorouders",
-      "achternaam": "Wapperom",
-      "voornaam": "Eduard",
-      "geboortedatum": "17 okt 1914",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Monteur",
-      "opmerking": "Gevangene A 5-4213"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I185242&tree=voorouders",
-      "achternaam": "Weers",
-      "voornaam": "Willem Frederik",
-      "geboortedatum": "27 dec 1911",
-      "geboorteplaats": "Hillegersberg",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Rijwielhersteller",
-      "opmerking": "Gevangene A 66-4525"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I185119&tree=voorouders",
-      "achternaam": "Wijntje",
-      "voornaam": "Adrianus Leonardus",
-      "geboortedatum": "22 jun 1918",
-      "geboorteplaats": "Rotterdam",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Koopman",
-      "opmerking": "Gevangene A 83-4548"
-    },
-    {
-      "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577196&tree=voorouders",
-      "achternaam": "Wilgenhof",
-      "voornaam": "Johannes",
-      "geboortedatum": "6 apr 1910",
-      "geboorteplaats": "Haarlem",
-      "overlijdensdatum": "14 mei 1940",
-      "overlijdensplaats": "Rotterdam",
-      "beroep": "Chauffeur",
-      "opmerking": "Gevangene A 8-4311"
-    }
-  ]
+    "columns": [
+        {
+            "field": "achternaam",
+            "headerName": "Achternaam",
+            "minWidth": 150,
+            "sort": "asc",
+            "sortIndex": 0
+        },
+        {
+            "field": "voornaam",
+            "headerName": "Voornaam",
+            "minWidth": 150
+        },
+        {
+            "field": "geboortedatum",
+            "headerName": "Geboren",
+            "minWidth": 120
+        },
+        {
+            "field": "geboorteplaats",
+            "headerName": "Geboorteplaats",
+            "minWidth": 150
+        },
+        {
+            "field": "overlijdensdatum",
+            "headerName": "Overleden",
+            "minWidth": 120
+        },
+        {
+            "field": "overlijdensplaats",
+            "headerName": "Overlijdensplaats",
+            "minWidth": 150
+        },
+        {
+            "field": "beroep",
+            "headerName": "Beroep",
+            "minWidth": 180
+        },
+        {
+            "field": "opmerking",
+            "headerName": "Opmerking",
+            "minWidth": 200
+        }
+    ],
+    "rows": [
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I484426&tree=voorouders",
+            "achternaam": "Aalhuizen",
+            "voornaam": "Jan Frederik",
+            "geboortedatum": "18 mrt 1902",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Machinebankwerker",
+            "opmerking": "Gevangene A 37-4276"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577267&tree=voorouders",
+            "achternaam": "Bos",
+            "voornaam": "Cornelis Johannes",
+            "geboortedatum": "9 mei 1900",
+            "geboorteplaats": "Delft",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Zeeman",
+            "opmerking": "Gevangene A 67-4461"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1470&tree=voorouders",
+            "achternaam": "Bosman",
+            "voornaam": "Johannes Theodorus",
+            "geboortedatum": "27 jul 1898",
+            "geboorteplaats": "Amsterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Uitgever",
+            "opmerking": "Gevangene A 68-4478"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I184511&tree=voorouders",
+            "achternaam": "Buitenhuis",
+            "voornaam": "Hendrikus Antonius",
+            "geboortedatum": "12 okt 1914",
+            "geboorteplaats": "Rhenen",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Landarbeider",
+            "opmerking": "Gevangene A 72-4250"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I456675&tree=voorouders",
+            "achternaam": "Campo",
+            "voornaam": "Joseph Pierre",
+            "geboortedatum": "27 nov 1893",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Koopman",
+            "opmerking": "Gevangene A 4-2750"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I648816&tree=voorouders",
+            "achternaam": "de Bruin",
+            "voornaam": "Joost",
+            "geboortedatum": "24 dec 1900",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Koperslager",
+            "opmerking": "Gevangene A 82-4499"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1509191&tree=voorouders",
+            "achternaam": "Declemij",
+            "voornaam": "Mathieu",
+            "geboortedatum": "12 apr 1891",
+            "geboorteplaats": "'s-Gravenhage",
+            "overlijdensdatum": "21 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Beambte Strafgevangenis",
+            "opmerking": "Medewerker"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I644544&tree=voorouders",
+            "achternaam": "Diepenhorst",
+            "voornaam": "Pieter",
+            "geboortedatum": "6 sep 1907",
+            "geboorteplaats": "Stad aan 't Haringvliet",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Schipper",
+            "opmerking": "Gevangene A 44-3305"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I296021&tree=voorouders",
+            "achternaam": "Erkelens",
+            "voornaam": "Leendert Adrianus",
+            "geboortedatum": "25 aug 1909",
+            "geboorteplaats": "Hillegersberg",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Schoenmaker",
+            "opmerking": "Gevangene A 39-4416"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I644209&tree=voorouders",
+            "achternaam": "Gomes",
+            "voornaam": "Gerrit",
+            "geboortedatum": "31 dec 1913",
+            "geboorteplaats": "Amsterdam",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Los werkman",
+            "opmerking": "Gevangene A 84-4004"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I307911&tree=voorouders",
+            "achternaam": "Hokke",
+            "voornaam": "Gerrit",
+            "geboortedatum": "24 feb 1889",
+            "geboorteplaats": "Zuidland",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Los werkman",
+            "opmerking": "Gevangene A 36-4185"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I190451&tree=voorouders",
+            "achternaam": "Houtman",
+            "voornaam": "Alexander",
+            "geboortedatum": "6 jun 1904",
+            "geboorteplaats": "Zwolle",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Timmerman",
+            "opmerking": "Gevangene Gem-4329"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I647037&tree=voorouders",
+            "achternaam": "Kloek",
+            "voornaam": "Adriaan",
+            "geboortedatum": "14 nov 1880",
+            "geboorteplaats": "Hoorn",
+            "overlijdensdatum": "21 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Schrijver",
+            "opmerking": "Gevangene A 12-3682"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I553019&tree=voorouders",
+            "achternaam": "Lanooij",
+            "voornaam": "Adrianus Johannes",
+            "geboortedatum": "12 feb 1885",
+            "geboorteplaats": "Moordrecht",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Koetsier",
+            "opmerking": "Gevangene A 3-3999"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577191&tree=voorouders",
+            "achternaam": "Leferink",
+            "voornaam": "Gerhard Anton",
+            "geboortedatum": "1 apr 1900",
+            "geboorteplaats": "Ochtrup, DEU",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Arbeider",
+            "opmerking": "Gevangene A 40-3341"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1352873&tree=voorouders",
+            "achternaam": "Minderman",
+            "voornaam": "Antonius Wilhelmus Johannes",
+            "geboortedatum": "16 okt 1902",
+            "geboorteplaats": "'s-Gravenhage",
+            "overlijdensdatum": "16 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Bookmaker",
+            "opmerking": "Gevangene A 7-4198"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I184991&tree=voorouders",
+            "achternaam": "Morroy",
+            "voornaam": "Rudolph Samuel",
+            "geboortedatum": "16 jun 1897",
+            "geboorteplaats": "Paramaribo, SUR",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Opticien",
+            "opmerking": "Gevangene A 9-4361"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1003129&tree=voorouders",
+            "achternaam": "Nowee",
+            "voornaam": "Petrus Franciscus Augustinus",
+            "geboortedatum": "9 sep 1909",
+            "geboorteplaats": "Dordrecht",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Matroos",
+            "opmerking": "Gevangene A 70-4086"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577274&tree=voorouders",
+            "achternaam": "Nunnikhoven",
+            "voornaam": "Johannes Antonius Reinier",
+            "geboortedatum": "31 dec 1902",
+            "geboorteplaats": "Gorinchem",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Bloemist",
+            "opmerking": "Gevangene A 10-4180"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I642980&tree=voorouders",
+            "achternaam": "Perfors",
+            "voornaam": "Hermanus Hendrik",
+            "geboortedatum": "13 jan 1899",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Machinebankwerker",
+            "opmerking": "Gevangene A 38-1974"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I185038&tree=voorouders",
+            "achternaam": "Schleberger",
+            "voornaam": "Max",
+            "geboortedatum": "28 sep 1910",
+            "geboorteplaats": "Amsterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Handelsreiziger",
+            "opmerking": "Gevangene A 33-4449"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I441211&tree=voorouders",
+            "achternaam": "Sinte Maartensdijk",
+            "voornaam": "Dammis",
+            "geboortedatum": "7 dec 1884",
+            "geboorteplaats": "Barendrecht",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Wegwerker",
+            "opmerking": "Gevangene A 15-4106"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1257982&tree=voorouders",
+            "achternaam": "Storm",
+            "voornaam": "Cornelis",
+            "geboortedatum": "17 nov 1911",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Timmerman",
+            "opmerking": "Gevangene A 53-4279"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I187703&tree=voorouders",
+            "achternaam": "Sweers",
+            "voornaam": "Hillegiena",
+            "geboortedatum": "21 mei 1876",
+            "geboorteplaats": "Haren",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "opmerking": "Vrouw van de huismeester"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577197&tree=voorouders",
+            "achternaam": "te Kolsté",
+            "voornaam": "Gerardus Christianus",
+            "geboortedatum": "22 dec 1879",
+            "geboorteplaats": "Utrecht",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Chauffeur",
+            "opmerking": "Gevangene A 34-4589"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1297076&tree=voorouders",
+            "achternaam": "Treuren",
+            "voornaam": "Cornelis",
+            "geboortedatum": "3 sep 1920",
+            "geboorteplaats": "Stolwijk",
+            "overlijdensdatum": "19 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Rietmattenmaker",
+            "opmerking": "Gevangene A 31-4462"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577452&tree=voorouders",
+            "achternaam": "Tuntler",
+            "voornaam": "Gerhard",
+            "geboortedatum": "2 okt 1889",
+            "geboorteplaats": "Groningen",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Scheepsbevrachter",
+            "opmerking": "Gevangene A 41-4222"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577185&tree=voorouders",
+            "achternaam": "van der Kuij",
+            "voornaam": "Pieter",
+            "geboortedatum": "25 jun 1915",
+            "geboorteplaats": "Oudewater",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Tekenaar",
+            "opmerking": "Gevangene A 69-4594"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1074848&tree=voorouders",
+            "achternaam": "van Driel de Vries",
+            "voornaam": "Cornelia",
+            "geboortedatum": "23 sep 1887",
+            "geboorteplaats": "Heinenoord",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "opmerking": "Vrouw van gevangenisbewaarder"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I185753&tree=voorouders",
+            "achternaam": "van Duin",
+            "voornaam": "Arie",
+            "geboortedatum": "10 jul 1917",
+            "geboorteplaats": "'s-Gravenhage",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Kantoorbediende",
+            "opmerking": "Gevangene A 11-4197"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I184417&tree=voorouders",
+            "achternaam": "van Herk",
+            "voornaam": "Rokus",
+            "geboortedatum": "30 aug 1903",
+            "geboorteplaats": "Moordrecht",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Tapijtwever",
+            "opmerking": "Gevangene A 62-3582"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577136&tree=voorouders",
+            "achternaam": "van Leur",
+            "voornaam": "Antonius",
+            "geboortedatum": "9 sep 1914",
+            "geboorteplaats": "Utrecht",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Los werkman",
+            "opmerking": "Gevangene A 65-4572"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I601075&tree=voorouders",
+            "achternaam": "van Liere",
+            "voornaam": "Pieter Cornelis Jacobus",
+            "geboortedatum": "16 nov 1898",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Broodbezorger",
+            "opmerking": "Gevangene A 81-3563"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1450802&tree=voorouders",
+            "achternaam": "van Meeuwen",
+            "voornaam": "Willem",
+            "geboortedatum": "5 dec 1915",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "15 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Lichtmatroos",
+            "opmerking": "Gevangene B 68-4498"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1278846&tree=voorouders",
+            "achternaam": "van Vliet",
+            "voornaam": "Annigje",
+            "geboortedatum": "4 feb 1922",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "opmerking": "Dochter van gevangenisbewaarder"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1094336&tree=voorouders",
+            "achternaam": "van Vliet",
+            "voornaam": "Aart",
+            "geboortedatum": "24 apr 1924",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "",
+            "opmerking": "Zoon van gevangenisbewaarder"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I485758&tree=voorouders",
+            "achternaam": "van Zijl",
+            "voornaam": "Pieter",
+            "geboortedatum": "21 feb 1901",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Loodgieter",
+            "opmerking": "Gevangene A 63-4519"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I190333&tree=voorouders",
+            "achternaam": "Waasdorp",
+            "voornaam": "Cornelis Jacobus",
+            "geboortedatum": "24 feb 1912",
+            "geboorteplaats": "'s-Gravenhage",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Fabrieksbarbeider",
+            "opmerking": "Gevangene A 64-4196"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I188255&tree=voorouders",
+            "achternaam": "Wapperom",
+            "voornaam": "Eduard",
+            "geboortedatum": "17 okt 1914",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Monteur",
+            "opmerking": "Gevangene A 5-4213"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I185242&tree=voorouders",
+            "achternaam": "Weers",
+            "voornaam": "Willem Frederik",
+            "geboortedatum": "27 dec 1911",
+            "geboorteplaats": "Hillegersberg",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Rijwielhersteller",
+            "opmerking": "Gevangene A 66-4525"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I185119&tree=voorouders",
+            "achternaam": "Wijntje",
+            "voornaam": "Adrianus Leonardus",
+            "geboortedatum": "22 jun 1918",
+            "geboorteplaats": "Rotterdam",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Koopman",
+            "opmerking": "Gevangene A 83-4548"
+        },
+        {
+            "link": "https://rotterdam.voorouder.nl/getperson.php?personID=I1577196&tree=voorouders",
+            "achternaam": "Wilgenhof",
+            "voornaam": "Johannes",
+            "geboortedatum": "6 apr 1910",
+            "geboorteplaats": "Haarlem",
+            "overlijdensdatum": "14 mei 1940",
+            "overlijdensplaats": "Rotterdam",
+            "beroep": "Chauffeur",
+            "opmerking": "Gevangene A 8-4311"
+        }
+    ]
 }

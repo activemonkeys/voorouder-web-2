@@ -1,303 +1,303 @@
 {
-  "columns": [
-    {
-      "field": "object",
-      "headerName": "Object",
-      "minWidth": 310,
-      "sort": "asc",
-      "sortIndex": 0
-    },
-    {
-      "field": "adres",
-      "headerName": "Adres",
-      "minWidth": 300
-    },
-    {
-      "field": "schade",
-      "headerName": "Schade",
-      "minWidth": 700
-    }
-  ],
-  "rows": [
-    {
-      "object": "A. Ficq & Zoon, Huidenhandel",
-      "adres": "van Helmontstraat 9",
-      "schade": "Gebouw totaal vernield"
-    },
-    {
-      "object": "A. Snelleman",
-      "adres": "Scheepssmederij, Vierhavenstraat 133, Half vernield",
-      "schade": "geheel buiten bedrijf"
-    },
-    {
-      "object": "Amstel Brouwerij",
-      "adres": "Keileweg 10",
-      "schade": "Glasschade"
-    },
-    {
-      "object": "Astra Brikettenfabriek",
-      "adres": "Vierhavenstraat 95 - 97",
-      "schade": "Eén zijde ingestort"
-    },
-    {
-      "object": "Bouwland",
-      "adres": "Gorzenpolder",
-      "schade": "Diverse bommen gevallen"
-    },
-    {
-      "object": "Bouwland",
-      "adres": "Hoogvlietsedijk",
-      "schade": "Diverse bommen gevallen"
-    },
-    {
-      "object": "Chefaro, Chemische Fabriek",
-      "adres": "Keileweg 8",
-      "schade": "Glasschade"
-    },
-    {
-      "object": "De Heer's Chocoladefabriek",
-      "adres": "Galvanistraat 10",
-      "schade": "Glasschade"
-    },
-    {
-      "object": "De Ruiter",
-      "adres": "Lakspuiterij,Vierhavenstraat 135, Ongeveer de helft vernield",
-      "schade": "buiten bedrijf"
-    },
-    {
-      "object": "Ford Fabriek",
-      "adres": "Marconistraat",
-      "schade": "Glasschade"
-    },
-    {
-      "object": "G. Ligtermoet & Zoon",
-      "adres": "Vierhavenstraat 56",
-      "schade": "Gedeeltelijk vernield"
-    },
-    {
-      "object": "Gebouwen",
-      "adres": "Vierhavenstraat 75 - 79",
-      "schade": "Glas- en scherfschade"
-    },
-    {
-      "object": "Gebouwen onder militaire bewaking",
-      "adres": "Keilestraat",
-      "schade": "Schade onbekend"
-    },
-    {
-      "object": "Gebroeders Van Jole, Brandstoffenhandel",
-      "adres": "Vierhavenstraat 48 - 52",
-      "schade": "Kolenopslagplaats geheel verwoest"
-    },
-    {
-      "object": "Gemeenteschool",
-      "adres": "Korfmakersstraat 127",
-      "schade": "Glasschade"
-    },
-    {
-      "object": "Gemeenteschool voor Lager Onderwijs",
-      "adres": "Blokmakersstraat",
-      "schade": "Glasschade"
-    },
-    {
-      "object": "HAKA gebouw",
-      "adres": "Vierhavenstraat",
-      "schade": "Glasschade"
-    },
-    {
-      "object": "Hollandsche Asbestmaatschappij",
-      "adres": "Vierhavenstraat/Hoek Keileweg",
-      "schade": "Fabrieksgebouw geheel verwoest"
-    },
-    {
-      "object": "Klingerit",
-      "adres": "Handelsonderneming,Vierhavenstraat 137, Nagenoeg totaal vernield",
-      "schade": "geheel buiten bedrijf"
-    },
-    {
-      "object": "Lege tjalk",
-      "adres": "Keilehaven",
-      "schade": "Gezonken"
-    },
-    {
-      "object": "Leven & Sormani, Verfstoffenfabriek",
-      "adres": "Keileweg 6",
-      "schade": "Kantoorgebouw nagenoeg vernield"
-    },
-    {
-      "object": "Loodsen onder militaire bewaking",
-      "adres": "Keilehaven",
-      "schade": "Schade onbekend"
-    },
-    {
-      "object": "Loodsen onder militaire bewaking",
-      "adres": "Lekhaven",
-      "schade": "Schade onbekend"
-    },
-    {
-      "object": "Louis Dobbelman",
-      "adres": "Opslagplaats,Vierhavenstraat 99, Gebouw half vernield",
-      "schade": "buiten bedrijf"
-    },
-    {
-      "object": "Motex NV",
-      "adres": "Vierhavenstraat 56",
-      "schade": "Gedeeltelijk vernield"
-    },
-    {
-      "object": "Motorschip Haringvliet",
-      "adres": "Keilehaven",
-      "schade": "Gezonken"
-    },
-    {
-      "object": "Motorschip Wilhelmina",
-      "adres": "Keilehaven",
-      "schade": "Gat in het achterschip"
-    },
-    {
-      "object": "Nieuwe Waterweg NV, Werf",
-      "adres": "Schiedam",
-      "schade": "Beperkte schade"
-    },
-    {
-      "object": "NV Hazemeyer",
-      "adres": "Vierhavenstraat 66",
-      "schade": "Algehele glas- en dakschade, gebouw beschadigd door bomscherven"
-    },
-    {
-      "object": "NV Stichtsche Matrassenfabriek",
-      "adres": "Vierhavenstraat 73",
-      "schade": "Totaal verwoest"
-    },
-    {
-      "object": "Polder Oud-Pernis",
-      "adres": "Vondelingenweg",
-      "schade": "Diverse bommen ontploft"
-    },
-    {
-      "object": "Rangeerterrein",
-      "adres": "Vierhavenstraat",
-      "schade": "Diverse bommen ontploft"
-    },
-    {
-      "object": "Rooms-Katholieke Kerk Regina Pacis",
-      "adres": "Willem Beukelszplein",
-      "schade": "Geheel uitgebrand"
-    },
-    {
-      "object": "Rooms-Katholieke Sint Matthiasschool",
-      "adres": "Nanningstraat",
-      "schade": "Uitgebrand"
-    },
-    {
-      "object": "Rooms-Katholieke Sint Nicolaasschool",
-      "adres": "Willem Beukelszstraat",
-      "schade": "Gedeeltelijk verwoest en uitgebrand"
-    },
-    {
-      "object": "RVVO, Centrale Keuken",
-      "adres": "Grote Visserijplein",
-      "schade": "Geheel verwoest"
-    },
-    {
-      "object": "Schop's Vleeschwarenfabriek",
-      "adres": "Helmontstraat 21",
-      "schade": "Getroffen"
-    },
-    {
-      "object": "Schuilgang 128",
-      "adres": "Vierhavenstraat",
-      "schade": "Enige schade aan ingang door scherven"
-    },
-    {
-      "object": "Schuilgang 131",
-      "adres": "Schiedamseweg",
-      "schade": "Beperkte schade"
-    },
-    {
-      "object": "Schuilgang 132",
-      "adres": "Korfmakersstraat",
-      "schade": "Vernield over de gehele lengte"
-    },
-    {
-      "object": "Schuilgang 133",
-      "adres": "Korfmakersstraat",
-      "schade": "Beperkte schade"
-    },
-    {
-      "object": "Schuilloopgraaf 591",
-      "adres": "Grote Visserijplein",
-      "schade": "Gedeeltelijk ingestort"
-    },
-    {
-      "object": "Schuilloopgraaf 592",
-      "adres": "Grote Visserijplein",
-      "schade": "Gedeeltelijk ingestort"
-    },
-    {
-      "object": "Seinhuisje",
-      "adres": "Marconiplein",
-      "schade": "Geheel vernield en de seinhuiswachter (Popke de Jong) werd gedood"
-    },
-    {
-      "object": "Stalhouderij",
-      "adres": "van Helmontstraat 11",
-      "schade": "Gebouw totaal vernield"
-    },
-    {
-      "object": "Sterrebos",
-      "adres": "Schiedam",
-      "schade": "Beperkte schade"
-    },
-    {
-      "object": "'t land van Poortugaal",
-      "adres": "Vondelingenweg - Varleweg",
-      "schade": "Diverse bommen ontploft"
-    },
-    {
-      "object": "Trammaterieel",
-      "adres": "Diverse locaties",
-      "schade": "Uitgebrand of zwaar beschadigd"
-    },
-    {
-      "object": "Van Berkel's Patent",
-      "adres": "Keileweg 5",
-      "schade": "Overal glasschade, kant Vierhavenstraat gebouw zwaar beschadigd door bomscherven"
-    },
-    {
-      "object": "Van Hulst, Zakkenhandel (in gebruik als HKP Auszenstelle)",
-      "adres": "Vierhavenstraat 131",
-      "schade": "Nagenoeg geheel vernield"
-    },
-    {
-      "object": "Volksbond tegen drankmisbruik",
-      "adres": "Vierhavenstraat 107",
-      "schade": "Glasschade"
-    },
-    {
-      "object": "Water",
-      "adres": "Werkhaven",
-      "schade": "Diverse bommen ontploft"
-    },
-    {
-      "object": "Waterleiding",
-      "adres": "Vierhavenstraat",
-      "schade": "Beschadigd"
-    },
-    {
-      "object": "Weduwe Benedictus, Drukkerij",
-      "adres": "van Helmontstraat 5",
-      "schade": "Glas- muur- en dakschade"
-    },
-    {
-      "object": "Weiland",
-      "adres": "Groene Kruisweg",
-      "schade": "6 bommen geworpen waardoor 2 lammeren en 1 schaap werden gedood"
-    },
-    {
-      "object": "Zolderschuit van firma Calvé",
-      "adres": "Keilehaven",
-      "schade": "Gezonken"
-    }
-  ]
+    "columns": [
+        {
+            "field": "object",
+            "headerName": "Object",
+            "minWidth": 310,
+            "sort": "asc",
+            "sortIndex": 0
+        },
+        {
+            "field": "adres",
+            "headerName": "Adres",
+            "minWidth": 300
+        },
+        {
+            "field": "schade",
+            "headerName": "Schade",
+            "minWidth": 700
+        }
+    ],
+    "rows": [
+        {
+            "object": "A. Ficq & Zoon, Huidenhandel",
+            "adres": "van Helmontstraat 9",
+            "schade": "Gebouw totaal vernield"
+        },
+        {
+            "object": "A. Snelleman",
+            "adres": "Scheepssmederij, Vierhavenstraat 133, Half vernield",
+            "schade": "geheel buiten bedrijf"
+        },
+        {
+            "object": "Amstel Brouwerij",
+            "adres": "Keileweg 10",
+            "schade": "Glasschade"
+        },
+        {
+            "object": "Astra Brikettenfabriek",
+            "adres": "Vierhavenstraat 95 - 97",
+            "schade": "Eén zijde ingestort"
+        },
+        {
+            "object": "Bouwland",
+            "adres": "Gorzenpolder",
+            "schade": "Diverse bommen gevallen"
+        },
+        {
+            "object": "Bouwland",
+            "adres": "Hoogvlietsedijk",
+            "schade": "Diverse bommen gevallen"
+        },
+        {
+            "object": "Chefaro, Chemische Fabriek",
+            "adres": "Keileweg 8",
+            "schade": "Glasschade"
+        },
+        {
+            "object": "De Heer's Chocoladefabriek",
+            "adres": "Galvanistraat 10",
+            "schade": "Glasschade"
+        },
+        {
+            "object": "De Ruiter",
+            "adres": "Lakspuiterij,Vierhavenstraat 135, Ongeveer de helft vernield",
+            "schade": "buiten bedrijf"
+        },
+        {
+            "object": "Ford Fabriek",
+            "adres": "Marconistraat",
+            "schade": "Glasschade"
+        },
+        {
+            "object": "G. Ligtermoet & Zoon",
+            "adres": "Vierhavenstraat 56",
+            "schade": "Gedeeltelijk vernield"
+        },
+        {
+            "object": "Gebouwen",
+            "adres": "Vierhavenstraat 75 - 79",
+            "schade": "Glas- en scherfschade"
+        },
+        {
+            "object": "Gebouwen onder militaire bewaking",
+            "adres": "Keilestraat",
+            "schade": "Schade onbekend"
+        },
+        {
+            "object": "Gebroeders Van Jole, Brandstoffenhandel",
+            "adres": "Vierhavenstraat 48 - 52",
+            "schade": "Kolenopslagplaats geheel verwoest"
+        },
+        {
+            "object": "Gemeenteschool",
+            "adres": "Korfmakersstraat 127",
+            "schade": "Glasschade"
+        },
+        {
+            "object": "Gemeenteschool voor Lager Onderwijs",
+            "adres": "Blokmakersstraat",
+            "schade": "Glasschade"
+        },
+        {
+            "object": "HAKA gebouw",
+            "adres": "Vierhavenstraat",
+            "schade": "Glasschade"
+        },
+        {
+            "object": "Hollandsche Asbestmaatschappij",
+            "adres": "Vierhavenstraat/Hoek Keileweg",
+            "schade": "Fabrieksgebouw geheel verwoest"
+        },
+        {
+            "object": "Klingerit",
+            "adres": "Handelsonderneming,Vierhavenstraat 137, Nagenoeg totaal vernield",
+            "schade": "geheel buiten bedrijf"
+        },
+        {
+            "object": "Lege tjalk",
+            "adres": "Keilehaven",
+            "schade": "Gezonken"
+        },
+        {
+            "object": "Leven & Sormani, Verfstoffenfabriek",
+            "adres": "Keileweg 6",
+            "schade": "Kantoorgebouw nagenoeg vernield"
+        },
+        {
+            "object": "Loodsen onder militaire bewaking",
+            "adres": "Keilehaven",
+            "schade": "Schade onbekend"
+        },
+        {
+            "object": "Loodsen onder militaire bewaking",
+            "adres": "Lekhaven",
+            "schade": "Schade onbekend"
+        },
+        {
+            "object": "Louis Dobbelman",
+            "adres": "Opslagplaats,Vierhavenstraat 99, Gebouw half vernield",
+            "schade": "buiten bedrijf"
+        },
+        {
+            "object": "Motex NV",
+            "adres": "Vierhavenstraat 56",
+            "schade": "Gedeeltelijk vernield"
+        },
+        {
+            "object": "Motorschip Haringvliet",
+            "adres": "Keilehaven",
+            "schade": "Gezonken"
+        },
+        {
+            "object": "Motorschip Wilhelmina",
+            "adres": "Keilehaven",
+            "schade": "Gat in het achterschip"
+        },
+        {
+            "object": "Nieuwe Waterweg NV, Werf",
+            "adres": "Schiedam",
+            "schade": "Beperkte schade"
+        },
+        {
+            "object": "NV Hazemeyer",
+            "adres": "Vierhavenstraat 66",
+            "schade": "Algehele glas- en dakschade, gebouw beschadigd door bomscherven"
+        },
+        {
+            "object": "NV Stichtsche Matrassenfabriek",
+            "adres": "Vierhavenstraat 73",
+            "schade": "Totaal verwoest"
+        },
+        {
+            "object": "Polder Oud-Pernis",
+            "adres": "Vondelingenweg",
+            "schade": "Diverse bommen ontploft"
+        },
+        {
+            "object": "Rangeerterrein",
+            "adres": "Vierhavenstraat",
+            "schade": "Diverse bommen ontploft"
+        },
+        {
+            "object": "Rooms-Katholieke Kerk Regina Pacis",
+            "adres": "Willem Beukelszplein",
+            "schade": "Geheel uitgebrand"
+        },
+        {
+            "object": "Rooms-Katholieke Sint Matthiasschool",
+            "adres": "Nanningstraat",
+            "schade": "Uitgebrand"
+        },
+        {
+            "object": "Rooms-Katholieke Sint Nicolaasschool",
+            "adres": "Willem Beukelszstraat",
+            "schade": "Gedeeltelijk verwoest en uitgebrand"
+        },
+        {
+            "object": "RVVO, Centrale Keuken",
+            "adres": "Grote Visserijplein",
+            "schade": "Geheel verwoest"
+        },
+        {
+            "object": "Schop's Vleeschwarenfabriek",
+            "adres": "Helmontstraat 21",
+            "schade": "Getroffen"
+        },
+        {
+            "object": "Schuilgang 128",
+            "adres": "Vierhavenstraat",
+            "schade": "Enige schade aan ingang door scherven"
+        },
+        {
+            "object": "Schuilgang 131",
+            "adres": "Schiedamseweg",
+            "schade": "Beperkte schade"
+        },
+        {
+            "object": "Schuilgang 132",
+            "adres": "Korfmakersstraat",
+            "schade": "Vernield over de gehele lengte"
+        },
+        {
+            "object": "Schuilgang 133",
+            "adres": "Korfmakersstraat",
+            "schade": "Beperkte schade"
+        },
+        {
+            "object": "Schuilloopgraaf 591",
+            "adres": "Grote Visserijplein",
+            "schade": "Gedeeltelijk ingestort"
+        },
+        {
+            "object": "Schuilloopgraaf 592",
+            "adres": "Grote Visserijplein",
+            "schade": "Gedeeltelijk ingestort"
+        },
+        {
+            "object": "Seinhuisje",
+            "adres": "Marconiplein",
+            "schade": "Geheel vernield en de seinhuiswachter (Popke de Jong) werd gedood"
+        },
+        {
+            "object": "Stalhouderij",
+            "adres": "van Helmontstraat 11",
+            "schade": "Gebouw totaal vernield"
+        },
+        {
+            "object": "Sterrebos",
+            "adres": "Schiedam",
+            "schade": "Beperkte schade"
+        },
+        {
+            "object": "'t land van Poortugaal",
+            "adres": "Vondelingenweg - Varleweg",
+            "schade": "Diverse bommen ontploft"
+        },
+        {
+            "object": "Trammaterieel",
+            "adres": "Diverse locaties",
+            "schade": "Uitgebrand of zwaar beschadigd"
+        },
+        {
+            "object": "Van Berkel's Patent",
+            "adres": "Keileweg 5",
+            "schade": "Overal glasschade, kant Vierhavenstraat gebouw zwaar beschadigd door bomscherven"
+        },
+        {
+            "object": "Van Hulst, Zakkenhandel (in gebruik als HKP Auszenstelle)",
+            "adres": "Vierhavenstraat 131",
+            "schade": "Nagenoeg geheel vernield"
+        },
+        {
+            "object": "Volksbond tegen drankmisbruik",
+            "adres": "Vierhavenstraat 107",
+            "schade": "Glasschade"
+        },
+        {
+            "object": "Water",
+            "adres": "Werkhaven",
+            "schade": "Diverse bommen ontploft"
+        },
+        {
+            "object": "Waterleiding",
+            "adres": "Vierhavenstraat",
+            "schade": "Beschadigd"
+        },
+        {
+            "object": "Weduwe Benedictus, Drukkerij",
+            "adres": "van Helmontstraat 5",
+            "schade": "Glas- muur- en dakschade"
+        },
+        {
+            "object": "Weiland",
+            "adres": "Groene Kruisweg",
+            "schade": "6 bommen geworpen waardoor 2 lammeren en 1 schaap werden gedood"
+        },
+        {
+            "object": "Zolderschuit van firma Calvé",
+            "adres": "Keilehaven",
+            "schade": "Gezonken"
+        }
+    ]
 }

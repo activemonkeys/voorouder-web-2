@@ -1,4 +1,5 @@
-import {cn} from '@/lib/utils';
+// apps/web/components/mdx/kbd.tsx
+import {cn} from '@workspace/ui/lib/utils';
 
 interface KbdProps {
   children: React.ReactNode;

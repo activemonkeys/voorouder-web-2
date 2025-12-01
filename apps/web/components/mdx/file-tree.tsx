@@ -1,5 +1,7 @@
-import {cn} from '@/lib/utils';
+// apps/web/components/mdx/file-tree.tsx
 import {File, Folder} from 'lucide-react';
+
+import {cn} from '@workspace/ui/lib/utils';
 
 interface FileTreeProps {
   children: string;

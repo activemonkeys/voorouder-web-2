@@ -1,4 +1,5 @@
-import {cn} from '@/lib/utils';
+// apps/web/components/mdx/command.tsx
+import {cn} from '@workspace/ui/lib/utils';
 
 interface CommandProps {
   children: React.ReactNode;
