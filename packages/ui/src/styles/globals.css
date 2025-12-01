@@ -59,30 +59,44 @@
     @apply bg-background text-foreground;
     font-family: var(--font-sans);
   }
+
   a:hover {
-    /* color: rgb(from var(--color-foreground) r g b / 0.8) !important; */
     text-decoration: none !important;
   }
 }
 
-/* Disable focus outlines */
+/* Prevent layout shift when scrollbar appears/disappears */
+html {
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+}
 
+/* Disable focus outlines */
 *:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 
-/* To Customize general scrollbar e.g. Rate Table */
+/* Custom scrollbar styling for Webkit browsers */
 ::-webkit-scrollbar {
-  width: 8px; /* For vertical scrollbars */
-  height: 8px; /* For horizontal scrollbars */
+  width: 8px;
+  height: 8px;
 }
 
-/* To Customize general scrollbar for Firefox e.g. Rate Table  */
-html {
-  scrollbar-width: thin; /* "auto", "thin", "none" */
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* Hide Next.js dev overlay portal */
 nextjs-portal {
   display: none;
 }

@@ -7,7 +7,6 @@ import {MenuIcon} from 'lucide-react';
 import {Link} from 'next-view-transitions';
 
 import {ScrollArea} from '@workspace/ui/components/shadcn/scroll-area';
-// Zorg dat deze shadcn components bestaan in @workspace/ui
 import {
   Sheet,
   SheetContent,
@@ -66,7 +65,6 @@ export function Header({className}: HeaderProps) {
                 <SheetHeader className="text-left">
                   <SheetTitle className="text-lg">Menu</SheetTitle>
                 </SheetHeader>
-                {/* ScrollArea uit @workspace/ui */}
                 <ScrollArea className="mt-6 h-full">
                   <div className="px-4 py-2">
                     <div className="space-y-4">
