@@ -1,0 +1,15 @@
+{
+    "name": "@workspace/typescript-config",
+    "version": "0.0.0",
+    "license": "PROPRIETARY",
+    "private": true,
+    "scripts": {
+        "typecheck": "echo 'No TypeScript files to check in typescript-config'"
+    },
+    "devDependencies": {
+        "@types/node": "^24.10.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

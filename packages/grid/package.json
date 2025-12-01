@@ -1,0 +1,47 @@
+{
+    "name": "@workspace/grid",
+    "version": "0.0.0",
+    "private": true,
+    "exports": {
+        "./hooks/*": {
+            "types": "./src/hooks/*.ts",
+            "import": "./src/hooks/*.ts"
+        },
+        "./locales/*": {
+            "types": "./src/locales/*.ts",
+            "import": "./src/locales/*.ts"
+        },
+        "./*": {
+            "types": "./src/*.ts",
+            "import": "./src/*.ts"
+        }
+    },
+    "scripts": {
+        "lint": "eslint . --max-warnings 100",
+        "lint:fix": "eslint . --fix",
+        "typecheck": "tsc --noEmit"
+    },
+    "peerDependencies": {
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    },
+    "dependencies": {
+        "@workspace/ui": "workspace:*",
+        "ag-grid-community": "^34.3.1",
+        "ag-grid-enterprise": "^34.3.1",
+        "ag-grid-react": "^34.3.1",
+        "lucide-react": "^0.555.0",
+        "sonner": "^2.0.7"
+    },
+    "devDependencies": {
+        "@types/node": "^24",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "@workspace/eslint-config": "workspace:*",
+        "@workspace/typescript-config": "workspace:*",
+        "eslint": "^9.39.1",
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0",
+        "typescript": "^5.9.3"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "description": "Een compleet overzicht van de gehele monorepo, inclusief alle relevante bronbestanden.",
+    "outputFile": "monorepo-content-full.txt",
+    "analysis": {
+        "deadCode": true,
+        "minDeadCodeLines": 4,
+        "header": true
+    },
+    "global": {
+        "extensions": [".ts", ".tsx", ".json", ".md", ".js", ".mjs", ".prisma"],
+        "excludeDirs": [
+            "node_modules",
+            "dist",
+            ".next",
+            ".turbo",
+            "coverage",
+            ".git",
+            "generated",
+            "build",
+            "temp"
+        ]
+    },
+    "workspaces": {
+        "apps/web": {
+            "excludeFiles": ["next-env.d.ts"]
+        },
+        "packages/env": "all",
+        "packages/eslint-config": "all",
+        "packages/grid": "all",
+        "packages/providers": "all",
+        "packages/typescript-config": "all",
+        "packages/ui": "all"
+    },
+    "rootFiles": [
+        "package.json",
+        "turbo.json",
+        "README.md",
+        "knip.json",
+        "prettier.config.mjs",
+        "development.md"
+    ]
+}

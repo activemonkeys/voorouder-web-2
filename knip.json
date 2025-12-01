@@ -1,0 +1,77 @@
+{
+    "$schema": "https://unpkg.com/knip@5/schema.json",
+    "ignore": [
+        "generate-monorepo-content.mjs",
+        "snapshot.mjs",
+        "analyze-code-quality.mjs",
+        "check-filenames-kebab.mjs",
+        "packages/ui/src/components/shadcn/**",
+        "packages/ui/src/styles/globals.css"
+    ],
+    "ignoreDependencies": [
+        "autoprefixer",
+        "postcss",
+        "tailwindcss",
+        "@tailwindcss/postcss",
+        "postcss-load-config",
+        "eslint-config-next",
+        "sharp",
+        "react-hook-form",
+        "date-fns",
+        "input-otp",
+        "vaul",
+        "embla-carousel-react",
+        "@radix-ui/*",
+        "cmdk",
+        "sonner",
+        "@types/react",
+        "@types/react-dom",
+        "@workspace/eslint-config",
+        "@workspace/typescript-config",
+        "cross-env",
+        "prettier-plugin-pkg",
+        "prettier-plugin-tailwindcss",
+        "@ianvs/prettier-plugin-sort-imports"
+    ],
+    "ignoreBinaries": ["ncu", "turbo", "dotenv"],
+    "ignoreExportsUsedInFile": true,
+    "workspaces": {
+        ".": {
+            "entry": ["turbo.json", "package.json"],
+            "project": ["**/*.{js,ts,tsx,jsx,mjs}"]
+        },
+        "apps/web": {
+            "entry": [
+                "next.config.js",
+                "app/**/{page,layout,loading,error,not-found,global-error}.{ts,tsx}",
+                "app/api/**/route.ts"
+            ],
+            "project": ["**/*.{ts,tsx,js,jsx,mjs}"]
+        },
+        "packages/ui": {
+            "entry": [
+                "src/components/**/*.{ts,tsx}",
+                "src/lib/**/*.ts",
+                "src/hooks/**/*.ts",
+                "src/styles/**/*.css"
+            ],
+            "project": ["src/**/*.{ts,tsx}"]
+        },
+        "packages/providers": {
+            "entry": ["src/index.ts"],
+            "project": ["src/**/*.{ts,tsx}"]
+        },
+        "packages/env": {
+            "entry": ["src/index.ts"],
+            "project": ["src/**/*.ts"]
+        },
+        "packages/eslint-config": {
+            "entry": ["*.js", "*.mjs"],
+            "project": ["**/*.js", "**/*.mjs"]
+        },
+        "packages/typescript-config": {
+            "entry": ["*.json"],
+            "project": ["**/*.json"]
+        }
+    }
+}

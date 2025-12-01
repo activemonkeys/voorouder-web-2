@@ -1,0 +1,54 @@
+{
+    "albums": [
+        {
+            "id": "burgerslachtoffers-10-14-mei-1940-rotterdam",
+            "title": "Burgerslachtoffers mei 1940 Rotterdam",
+            "description": "Portretten van burgers die omkwamen tijdens de Strijd om Rotterdam in mei 1940",
+            "thumbnailPath": "/images/albums/burgerslachtoffers-10-14-mei-1940-rotterdam/wilhelmus-de-wolff-jacoba-eggink.jpg",
+            "imagesPath": "/images/albums/burgerslachtoffers-mei-1940-rotterdam",
+            "jsonFile": "burgerslachtoffers-10-14-mei-1940-rotterdam.json",
+            "featured": true,
+            "featureOrder": 1
+        },
+        {
+            "id": "nederlandse-militaire-slachtoffers-10-14-mei-1940-rotterdam",
+            "title": "Nederlandse militaire slachtoffers mei 1940 Rotterdam",
+            "description": "Portretten van Nederlandse militairen die omkwamen tijdens de Strijd om Rotterdam in mei 1940",
+            "thumbnailPath": "/images/albums/nederlandse-militaire-slachtoffers-10-14-mei-1940-rotterdam/jean-claude-marie-simon-thomas-169.jpg",
+            "imagesPath": "/images/albums/nederlandse-militaire-slachtoffers-mei-1940-rotterdam",
+            "jsonFile": "nederlandse-militaire-slachtoffers-10-14-mei-1940-rotterdam.json",
+            "featured": true,
+            "featureOrder": 2
+        },
+        {
+            "id": "politieslachtoffers-10-14-mei-1940-rotterdam",
+            "title": "Politieslachtoffers mei 1940 Rotterdam",
+            "description": "Portretten van politieagenten die omkwamen tijdens de Strijd om Rotterdam in mei 1940",
+            "thumbnailPath": "/images/albums/politieslachtoffers-10-14-mei-1940-rotterdam/gerrit-wilhelm-timmer-169.jpg",
+            "imagesPath": "/images/albums/politieslachtoffers-mei-1940-rotterdam",
+            "jsonFile": "politieslachtoffers-10-14-mei-1940-rotterdam.json",
+            "featured": true,
+            "featureOrder": 3
+        },
+        {
+            "id": "britse-militaire-slachtoffers-10-14-mei-1940-rotterdam",
+            "title": "Britse militaire slachtoffers mei 1940 Rotterdam",
+            "description": "Portretten van Britse militairen die omkwamen tijdens de Strijd om Rotterdam in mei 1940",
+            "thumbnailPath": "/images/albums/britse-militaire-slachtoffers-10-14-mei-1940-rotterdam/robert-wyatt-hamilton-echlin-169.jpg",
+            "imagesPath": "/images/albums/britse-militaire-slachtoffers-mei-1940-rotterdam",
+            "jsonFile": "britse-militaire-slachtoffers-10-14-mei-1940-rotterdam.json",
+            "featured": true,
+            "featureOrder": 4
+        },
+        {
+            "id": "slachtoffers-bombardement-31-maart-1943-rotterdam",
+            "title": "Slachtoffers 'Vergeten bombardement'",
+            "description": "Portretten van slachtoffers van het bombardement op Rotterdam-West van 31 maart 1943",
+            "thumbnailPath": "/images/albums/slachtoffers-bombardement-31-maart-1943-rotterdam/adrianus-van-cappellen.jpg",
+            "imagesPath": "/images/albums/slachtoffers-bombardement-31-maart-1943-rotterdam",
+            "jsonFile": "slachtoffers-bombardement-31-maart-1943-rotterdam.json",
+            "featured": true,
+            "featureOrder": 5
+        }
+    ]
+}

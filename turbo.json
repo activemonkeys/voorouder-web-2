@@ -1,0 +1,47 @@
+{
+    "$schema": "https://turbo.build/schema.json",
+    "ui": "tui",
+    "globalEnv": [
+        "SKIP_ENV_VALIDATION",
+        "NODE_ENV",
+        "NEXT_PUBLIC_APP_NAME",
+        "NEXT_PUBLIC_APP_DESCRIPTION",
+        "NEXT_PUBLIC_BASE_URL",
+        "NEXT_PUBLIC_DEFAULT_LOCALE",
+        "NEXT_PUBLIC_META_PIXEL_ID",
+        "NEXT_PUBLIC_GA_MEASUREMENT_ID",
+        "API_KEY_SECRET",
+        "API_MAX_REQUESTS_PER_MINUTE",
+        "API_AUTHORIZATION_ENABLED"
+    ],
+    "tasks": {
+        "build": {
+            "dependsOn": ["^build"],
+            "inputs": ["$TURBO_DEFAULT$", ".env*"],
+            "outputs": [".next/**", "!.next/cache/**"]
+        },
+        "start": {
+            "cache": false,
+            "persistent": true,
+            "dependsOn": ["build"]
+        },
+        "lint": {
+            "dependsOn": ["^lint"]
+        },
+        "typecheck": {
+            "dependsOn": ["^typecheck"],
+            "inputs": ["$TURBO_DEFAULT$", "**/*.ts", "**/*.tsx"]
+        },
+        "check-types": {
+            "dependsOn": ["^check-types"]
+        },
+        "dev": {
+            "cache": false,
+            "persistent": true
+        },
+        "devs": {
+            "cache": false,
+            "persistent": true
+        }
+    }
+}
