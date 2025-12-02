@@ -8,7 +8,7 @@ import 'yet-another-react-lightbox/plugins/captions.css';
 import type {Metadata} from 'next';
 import Script from 'next/script';
 import {Footer} from '@/components/layout/footer';
-
+import {Header} from '@/components/layout/header';
 import {GeistMono} from 'geist/font/mono';
 import {GeistSans} from 'geist/font/sans';
 import {ViewTransitions} from 'next-view-transitions';
@@ -17,8 +17,6 @@ import {clientEnv as env} from '@workspace/env';
 import {ThemeProvider} from '@workspace/providers';
 import BackToTop from '@workspace/ui/components/extended/back-to-top';
 import {cn} from '@workspace/ui/lib/utils';
-import { Header } from '@/components/layout/header';
-
 
 export const metadata: Metadata = {
   title: {
@@ -89,11 +87,11 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
             initialFont="geist"
           >
             <div className="flex min-h-screen flex-col">
-              <Header className="w-full px-4 sm:px-0" />
-              <main className="mx-auto flex-1 px-4 py-8 sm:container">
+              <Header />
+              <main className="container mx-auto flex-1 px-4 py-8">
                 {children}
               </main>
-              <Footer className="w-full px-4 sm:px-0" />
+              <Footer />
               <BackToTop />
             </div>
           </ThemeProvider>

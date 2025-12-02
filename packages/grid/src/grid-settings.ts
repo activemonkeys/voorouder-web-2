@@ -5,6 +5,7 @@ import {
   CsvExportModule,
   DateFilterModule,
   GridOptions,
+  LocaleModule, // Toegevoegd
   ModuleRegistry,
   NumberFilterModule,
   PaginationModule,
@@ -14,8 +15,8 @@ import {
   ValidationModule,
 } from 'ag-grid-community';
 
-import {AG_GRID_LOCALE_EN} from './locales/ag-grid-en';
-import {AG_GRID_LOCALE_NL} from './locales/ag-grid-nl';
+import { AG_GRID_LOCALE_EN } from './locales/ag-grid-en';
+import { AG_GRID_LOCALE_NL } from './locales/ag-grid-nl';
 
 export const registerCommunityModules = () => {
   ModuleRegistry.registerModules([
@@ -28,6 +29,7 @@ export const registerCommunityModules = () => {
     DateFilterModule,
     RenderApiModule,
     ValidationModule,
+    LocaleModule, // Belangrijk: Registreer deze module!
   ]);
 };
 

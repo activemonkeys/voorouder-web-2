@@ -14,6 +14,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@workspace/ui/components/shadcn/sheet';
+import {cn} from '@workspace/ui/lib/utils';
 import {ModeToggle} from './mode-toggle';
 
 interface HeaderProps {
@@ -45,10 +46,13 @@ export function Header({className}: HeaderProps) {
 
   return (
     <header
-      className={`bg-background/95 sticky top-0 z-50 backdrop-blur-sm ${className}`}
+      className={cn(
+        'bg-background/95 sticky top-0 z-50 w-full border-b backdrop-blur-sm',
+        className,
+      )}
     >
-      <div className="mx-auto sm:container">
-        <nav className="flex w-full items-center justify-between py-4">
+      <div className="container mx-auto px-4">
+        <nav className="flex h-16 w-full items-center justify-between">
           <div className="flex items-center gap-4 sm:gap-8">
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>

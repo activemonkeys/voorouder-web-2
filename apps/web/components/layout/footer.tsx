@@ -16,7 +16,7 @@ export function Footer({className, ...props}: FooterProps) {
 
   return (
     <footer className={cn('bg-background border-t', className)} {...props}>
-      <div className="mx-auto py-12 sm:container">
+      <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Eerste Kolom - Contactgegevens */}
           <div className="w-full text-left">
@@ -97,7 +97,7 @@ export function Footer({className, ...props}: FooterProps) {
 
       {/* Copyright */}
       <div className="border-t">
-        <div className="mx-auto py-6 sm:container">
+        <div className="container mx-auto px-4 py-6">
           <div className="text-muted-foreground flex flex-col gap-2 text-xs sm:flex-row sm:items-center sm:justify-between">
             <p>
               © {currentYear} {siteConfig.name}
