@@ -5,7 +5,7 @@ import {
   CsvExportModule,
   DateFilterModule,
   GridOptions,
-  LocaleModule, // Toegevoegd
+  LocaleModule,
   ModuleRegistry,
   NumberFilterModule,
   PaginationModule,
@@ -29,12 +29,11 @@ export const registerCommunityModules = () => {
     DateFilterModule,
     RenderApiModule,
     ValidationModule,
-    LocaleModule, // Belangrijk: Registreer deze module!
+    LocaleModule,
   ]);
 };
 
 export const getLocaleText = (locale: string) => {
-  // We maken NL de default als de locale 'nl' is OF als er geen match is.
   switch (locale) {
     case 'en':
       return AG_GRID_LOCALE_EN;
@@ -48,6 +47,9 @@ const baseGridOptions: GridOptions = {
   rowHeight: 40,
   pagination: true,
   paginationPageSize: 10,
+  // Hier voegen we de opties toe voor de dropdown.
+  // Door 10 toe te voegen, wordt de standaardwaarde correct weergegeven.
+  paginationPageSizeSelector: [10, 20, 50, 100],
   suppressPaginationPanel: false,
   maintainColumnOrder: true,
   animateRows: true,

@@ -29,10 +29,13 @@ export async function MdxDataTable({
     );
   }
 
+  // Hier mappen we de JSON kolommen naar de DataTable props
+  // We gebruiken nu expliciet 'minWidth' in plaats van 'width'
+  // zodat de flex-layout (uitvullen over breedte) actief blijft.
   const columns = dataset.columns.map((col) => ({
     field: col.field,
     headerName: col.headerName,
-    width: col.minWidth || 150,
+    minWidth: col.minWidth || 150,
   }));
 
   return (

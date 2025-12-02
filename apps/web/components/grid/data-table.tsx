@@ -16,7 +16,13 @@ registerCommunityModules();
 
 interface DataTableProps {
   data: any[];
-  columns?: {field: string; headerName?: string; width?: number}[];
+  // Aangepast: minWidth toegevoegd aan de interface
+  columns?: {
+    field: string;
+    headerName?: string;
+    width?: number;
+    minWidth?: number;
+  }[];
   height?: number | string;
   pagination?: boolean;
   paginationPageSize?: number;
@@ -75,6 +81,9 @@ export function DataTable({
       field: col.field,
       headerName: col.headerName || col.field,
       width: col.width,
+      minWidth: col.minWidth, // Geef minWidth door
+      // Flex alleen aanzetten als er GEEN harde width is opgegeven.
+      // MinWidth mag wel, dat is slechts een ondergrens.
       flex: col.width ? undefined : 1,
       filter: true,
       sortable: true,
